@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arbres-services-geneve.ch/sitemap.xml
