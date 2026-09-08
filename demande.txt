@@ -109,3 +109,6 @@ supprime le ch de 🇨🇭 "Bendik parle couramment Français, Anglais et Allema
 intervention et intemppérie, place le en base de page
 le bas de pages est affiché Français • English • Deutsch, transforme les en lien pour qu'il puissent changer de langues
 Quand je sélectionne une page, on ne voit pas bien dans l'entête quelle pages est sélectionnéée, fait mieux ressortir la page
+
+----
+les fonds sont trop foncés, je veux voir un peu plus de vert
