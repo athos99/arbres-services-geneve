@@ -114,29 +114,14 @@
       </nav>
 
       <div class="header-cta">
-        <a href="#devis" class="btn btn-autumn">Kostenlose Offerte</a>
+        <a href="#devis" class="btn btn-autumn">Offertanfrage</a>
       </div>
 
     </div>
   </header>
 
   <!-- Unwetter-Notfallbanner -->
-  <aside class="emergency-banner" aria-label="Unwetter-Notfalleinsatz">
-    <div class="container emergency-content">
-      <div class="emergency-text">
-        <div class="emergency-icon" aria-hidden="true">⚠️</div>
-        <div>
-          <div class="emergency-heading">Unwetter-Notfalleinsatz</div>
-          <p class="emergency-desc">
-            <strong>Ein gefährlicher Baum oder ein drohender Astbruch?</strong> Bei Sturm oder akuter Einsturzgefahr auf Gebäude oder Strassen rücken wir in Genf und Waadt umgehend aus.
-          </p>
-        </div>
-      </div>
-      <a href="tel:+41799217723" class="emergency-call" aria-label="Notfallnummer +41 79 921 77 23 anrufen">
-        <span aria-hidden="true">📞</span> Anrufen: +41 79 921 77 23
-      </a>
-    </div>
-  </aside>
+  
 
   <main id="main-content">
 
@@ -157,7 +142,7 @@
         </p>
 
         <div class="hero-actions">
-          <a href="#devis" class="btn btn-autumn">Kostenlose Offerte anfordern</a>
+          <a href="#devis" class="btn btn-autumn">Offertanfrage</a>
           <a href="services.html" class="btn btn-outline-white">Leistungen entdecken</a>
           <a href="tel:+41799217723" class="btn btn-emergency">Sturmeinsatz 24/7</a>
         </div>
@@ -315,7 +300,6 @@
             </p>
 
             <div class="founder-languages">
-              <span aria-hidden="true">🗣️</span>
               <span>Bendik spricht fliessend <strong>Französisch, Englisch und Deutsch</strong></span>
             </div>
 
@@ -553,7 +537,28 @@
 
   </main>
 
-  <footer class="site-footer" role="contentinfo">
+  
+  <!-- ==================================================================== -->
+  <!-- INTERVENTION D'URGENCE INTEMPÉRIES (EN BAS DE PAGE)                -->
+  <!-- ==================================================================== -->
+  <aside class="emergency-banner" aria-label="Unwetter-Notfalleinsatz">
+    <div class="container emergency-content">
+      <div class="emergency-text">
+        <div class="emergency-icon" aria-hidden="true">⚠️</div>
+        <div>
+          <div class="emergency-heading">Unwetter-Notfalleinsatz</div>
+          <p class="emergency-desc">
+            <strong>Ein gefährlicher Baum oder ein drohender Astbruch?</strong> Bei Sturm oder akuter Einsturzgefahr auf Gebäude oder Strassen rücken wir in Genf und Waadt umgehend aus.
+          </p>
+        </div>
+      </div>
+      <a href="tel:+41799217723" class="emergency-call" aria-label="Notfallnummer +41 79 921 77 23 anrufen">
+        <span aria-hidden="true">📞</span> Anrufen: +41 79 921 77 23
+      </a>
+    </div>
+  </aside>
+
+<footer class="site-footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
         <div>
@@ -594,7 +599,9 @@
       </div>
       <div class="footer-bottom">
         <div>&copy; ASG Arbres Services Genève • Schweizer Qualität</div>
-        <div>Français • English • Deutsch</div>
+        <div class="footer-languages">
+          <a href="../index.html" class="footer-lang">Français</a> • <a href="../en/index.html" class="footer-lang">English</a> • <a href="index.html" class="footer-lang active" aria-current="page">Deutsch</a>
+        </div>
       </div>
     </div>
   </footer>
