@@ -6,29 +6,29 @@
    ========================================================================== */
 
 :root {
-  /* Palette de couleurs : Vert Forêt Affirmé et Visible */
-  --color-forest-dark: #0a1910;       /* Vert-noir profond pour entête et accents sombres */
-  --color-forest-header: #0a1910;     /* Vert-noir noble de l'entête */
-  --color-forest-deep: #132f20;       /* Vert forêt dense */
-  --color-forest-primary: #2e774c;    /* Vert feuillage tonique */
-  --color-forest-light: #439f69;      /* Vert vif naturel */
-  --color-forest-tint: #143321;       /* Fond vert forêt intermédiaire */
+  /* Palette de couleurs : Vert Ardoise Sombre & Ambre Automne - WCAG AAA accessible */
+  --color-forest-dark: #07120a;       /* Vert-noir profond pour entête et accents sombres */
+  --color-forest-header: #0d1f14;     /* Vert très foncé de l'en-tête */
+  --color-forest-deep: #122218;       /* Vert forêt dense */
+  --color-forest-primary: #1e5238;    /* Vert feuillage principal */
+  --color-forest-light: #2e7a54;      /* Vert vif naturel */
+  --color-forest-tint: #163024;       /* Fond vert forêt intermédiaire */
   
-  --color-autumn: #d4762a;            /* Ambre écorce / Automne chaud et lumineux */
-  --color-autumn-dark: #ad5a17;       /* Cuivre automnal foncé */
-  --color-autumn-light: #44240d;      /* Fond sombre d'accent automnal */
+  --color-autumn: #d4883c;            /* Ambre bois chaud, contrasté sur vert foncé */
+  --color-autumn-dark: #b07030;       /* Ambre foncé */
+  --color-autumn-light: #3a1e08;      /* Fond sombre d'accent automnal */
 
   --color-swiss-red: #d52b1e;         /* Rouge officiel Confédération suisse */
   --color-swiss-dark: #a81d13;        /* Rouge sombre pour contraste */
 
-  --color-text-main: #f5fbf7;         /* Texte blanc cassé très lisible sur fond vert */
-  --color-text-muted: #d0e5d8;        /* Texte secondaire vert sauge très clair */
+  --color-text-main: #f0f0e8;         /* Texte principal presque blanc, contraste max */
+  --color-text-muted: #d4dcc4;        /* Texte secondaire clair, WCAG AA sur vert foncé */
   --color-text-inverse: #ffffff;      /* Blanc pur */
 
-  --color-bg-body: #193d28;           /* FOND VERT FORÊT NETTEMENT VISIBLE ET NATUREL */
-  --color-bg-card: #214d34;           /* Cartes et panneaux vert feuillage élégant */
-  --color-bg-card-alt: #295b3e;       /* Variante de carte */
-  --color-border: #33714c;            /* Bordures vertes naturelles et soignées */
+  --color-bg-body: #12251a;           /* Fond principal vert très sombre */
+  --color-bg-card: #1a3326;           /* Cartes vert feuillage sombre */
+  --color-bg-card-alt: #1f3d2e;       /* Variante de carte */
+  --color-border: #2a5a42;            /* Bordures vertes visibles */
 
   /* Typographie */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -74,13 +74,13 @@ img {
 }
 
 a {
-  color: #8bedb6;
+  color: #7edfaa;
   text-decoration-thickness: 1.5px;
   transition: var(--transition);
 }
 
 a:hover, a:focus {
-  color: #f7a868;
+  color: var(--color-autumn);
 }
 
 /* --------------------------------------------------------------------------
@@ -162,18 +162,18 @@ a:hover, a:focus {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #8dedb8;
-  background-color: #194029;
+  color: #5ec480;
+  background-color: #0e2216;
   padding: 0.35rem 1rem;
   border-radius: 50px;
   margin-bottom: 0.75rem;
-  border: 1px solid #30744c;
+  border: 1px solid #2e7a54;
 }
 
 .section-badge.badge-autumn {
-  color: #f7a868;
-  background-color: #44240d;
-  border-color: #7a3e14;
+  color: var(--color-autumn);
+  background-color: #2e1a08;
+  border-color: #7a4a28;
 }
 
 .section-title {
@@ -193,11 +193,11 @@ a:hover, a:focus {
    BARRE SUPÉRIEURE : QUALITÉ SUISSE & SÉLECTEUR DE LANGUE (VERT-NOIR)
    -------------------------------------------------------------------------- */
 .topbar {
-  background-color: #06120b; /* Vert-noir profond */
-  color: #e5efe8;
+  background-color: var(--color-forest-header);
+  color: var(--color-text-muted);
   font-size: 0.95rem;
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .topbar-wrapper {
@@ -264,7 +264,7 @@ a:hover, a:focus {
 }
 
 .topbar-link:hover, .topbar-link:focus {
-  color: #f7a868;
+  color: var(--color-autumn);
 }
 
 /* Sélecteur de langue */
@@ -279,7 +279,7 @@ a:hover, a:focus {
 }
 
 .lang-switch a {
-  color: #cce0d4;
+  color: var(--color-text-muted);
   text-decoration: none;
   padding: 0.15rem 0.55rem;
   border-radius: 3px;
@@ -295,7 +295,7 @@ a:hover, a:focus {
 }
 
 .lang-switch a:hover:not(.active), .lang-switch a:focus:not(.active) {
-  background-color: rgba(255, 255, 255, 0.18);
+  background-color: rgba(255, 255, 255, 0.12);
   color: #ffffff;
 }
 
@@ -303,12 +303,12 @@ a:hover, a:focus {
    EN-TÊTE PRINCIPAL : FOND VERT-NOIR & PAGE ACTIVE BIEN VISIBLE
    -------------------------------------------------------------------------- */
 .site-header {
-  background-color: var(--color-forest-header); /* Entête vert-noir */
+  background-color: var(--color-forest-header);
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #1e452e;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header-wrapper {
@@ -358,7 +358,7 @@ a:hover, a:focus {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  color: #f7a868;
+  color: var(--color-autumn);
 }
 
 /* Navigation principale & Page Active Bien Mise en Valeur */
@@ -375,7 +375,7 @@ a:hover, a:focus {
 }
 
 .nav-link {
-  color: #d1e2d7;
+  color: var(--color-text-muted);
   text-decoration: none;
   font-weight: 600;
   font-size: 1.02rem;
@@ -387,16 +387,27 @@ a:hover, a:focus {
 
 .nav-link:hover {
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* MISE EN ÉVIDENCE FORTE DE LA PAGE ACTIVE DANS L'ENTÊTE */
 .nav-link.active {
+  background: none;
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
   background-color: var(--color-autumn);
-  color: #ffffff !important;
-  font-weight: 800;
-  box-shadow: 0 3px 10px rgba(212, 118, 42, 0.45);
-  border: 1px solid #f2964e;
 }
 
 .header-cta {
@@ -446,7 +457,7 @@ a:hover, a:focus {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #215938;
+  background-color: #234532;
   color: #ffffff;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
@@ -480,8 +491,8 @@ a:hover, a:focus {
 
 .btn-outline {
   background-color: transparent;
-  border-color: #439f69;
-  color: #8dedb8;
+  border-color: #5ec480;
+  color: #5ec480;
 }
 
 .btn-outline:hover, .btn-outline:focus {
@@ -586,10 +597,10 @@ a:hover, a:focus {
    -------------------------------------------------------------------------- */
 .hero {
   position: relative;
-  background: linear-gradient(rgba(10, 25, 16, 0.84), rgba(25, 61, 40, 0.88)), url('../images/realisation1.jpeg') center/cover no-repeat;
+  background: linear-gradient(rgba(13, 31, 20, 0.9), rgba(31, 61, 46, 0.92)), url('../images/realisation1.jpeg') center/cover no-repeat;
   color: #ffffff;
   padding: 6.5rem 0 5.5rem 0;
-  border-bottom: 4px solid var(--color-autumn);
+  border-bottom: 3px solid var(--color-autumn);
 }
 
 .hero-content {
@@ -600,15 +611,15 @@ a:hover, a:focus {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
-  padding: 0.4rem 1.2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  color: #f7d29d;
+  color: var(--color-autumn);
   margin-bottom: 1.25rem;
-  border: 1px solid rgba(247, 210, 157, 0.35);
+  border: 1px solid rgba(212, 136, 60, 0.4);
 }
 
 .hero-title {
@@ -624,7 +635,7 @@ a:hover, a:focus {
 .hero-text {
   font-size: 1.25rem;
   line-height: 1.6;
-  color: #e2ede5;
+  color: #e0e8dc;
   margin-bottom: 2.25rem;
   max-width: 820px;
 }
@@ -652,11 +663,11 @@ a:hover, a:focus {
   gap: 0.75rem;
   font-size: 1rem;
   font-weight: 600;
-  color: #e5eee8;
+  color: #e0e8dc;
 }
 
 .trust-item svg {
-  color: #f7d29d;
+  color: var(--color-autumn);
 }
 
 /* --------------------------------------------------------------------------
@@ -756,12 +767,12 @@ a:hover, a:focus {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  color: #8bedb6;
+  color: #5ec480;
   text-decoration: none;
 }
 
 .service-card-link:hover, .service-card-link:focus {
-  color: #f7a868;
+  color: var(--color-autumn);
   gap: 0.6rem;
 }
 
@@ -784,22 +795,22 @@ a:hover, a:focus {
 }
 
 .zone-tag {
-  background-color: #173b25;
+  background-color: #0e2216;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
   padding: 0.5rem 1.15rem;
   border-radius: 50px;
-  border: 1px solid #35774e;
+  border: 1px solid #2e7a54;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
 }
 
 .zone-tag.highlight {
-  background-color: #44240d;
-  color: #f7a868;
-  border-color: #7a3e14;
+  background-color: #2e1a08;
+  color: var(--color-autumn);
+  border-color: #7a4a28;
   font-weight: 700;
 }
 
@@ -835,7 +846,7 @@ a:hover, a:focus {
 }
 
 .founder-tag {
-  color: #f7a868;
+  color: var(--color-autumn);
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -858,7 +869,7 @@ a:hover, a:focus {
 }
 
 .founder-bio {
-  color: #e2ede5;
+  color: #d8e0d8;
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
@@ -867,13 +878,13 @@ a:hover, a:focus {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  background-color: #173b25;
+  background-color: #0e2216;
   padding: 0.6rem 1.25rem;
   border-radius: var(--radius-sm);
   font-size: 0.95rem;
   font-weight: 600;
   color: #ffffff;
-  border: 1px solid #35774e;
+  border: 1px solid #2e7a54;
   width: fit-content;
 }
 
@@ -927,7 +938,7 @@ a:hover, a:focus {
   content: '✓';
   position: absolute;
   left: 0;
-  color: #8bedb6;
+  color: #5ec480;
   font-weight: bold;
 }
 
@@ -948,13 +959,13 @@ a:hover, a:focus {
 .value-icon {
   width: 50px;
   height: 50px;
-  background-color: #173b25;
+  background-color: #0e2216;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8bedb6;
-  border: 1px solid var(--color-border);
+  color: #5ec480;
+  border: 1px solid #2e7a54;
 }
 
 .value-title {
@@ -981,8 +992,8 @@ a:hover, a:focus {
 
 .filter-btn {
   background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  color: #e2ede5;
+  border: 1px solid #2e7a54;
+  color: #e0e8dc;
   padding: 0.55rem 1.35rem;
   border-radius: 50px;
   font-size: 0.95rem;
@@ -992,8 +1003,8 @@ a:hover, a:focus {
 }
 
 .filter-btn:hover, .filter-btn:focus {
-  background: #2b6142;
-  border-color: #439f69;
+  background: #1e5238;
+  border-color: #5ec480;
   color: #ffffff;
 }
 
@@ -1068,7 +1079,7 @@ a:hover, a:focus {
 }
 
 .contact-info-panel {
-  background-color: var(--color-bg-card);
+  background-color: #f5ead6;
   border-radius: var(--radius-lg);
   padding: 2.5rem;
   border: 1px solid var(--color-border);
@@ -1085,13 +1096,13 @@ a:hover, a:focus {
 .contact-detail-icon {
   width: 44px;
   height: 44px;
-  background-color: #173b25;
+  background-color: #0e2216;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8bedb6;
-  border: 1px solid var(--color-border);
+  color: #5ec480;
+  border: 1px solid #2e7a54;
   flex-shrink: 0;
 }
 
@@ -1099,27 +1110,27 @@ a:hover, a:focus {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--color-text-muted);
+  color: #0d3d20;
   font-weight: 700;
 }
 
 .contact-detail-value {
   font-size: 1.15rem;
   font-weight: 600;
-  color: #ffffff;
+  color: #07120a;
 }
 
 .contact-detail-value a {
-  color: #ffffff;
+  color: #07120a;
   text-decoration: none;
 }
 
 .contact-detail-value a:hover, .contact-detail-value a:focus {
-  color: #f7a868;
+  color: #6b3f10;
 }
 
 .form-card {
-  background-color: var(--color-bg-card);
+  background-color: #f5ead6;
   border-radius: var(--radius-lg);
   padding: 2.5rem;
   border: 1px solid var(--color-border);
@@ -1134,7 +1145,7 @@ a:hover, a:focus {
   display: block;
   font-weight: 700;
   font-size: 1rem;
-  color: #ffffff;
+  color: #07120a;
   margin-bottom: 0.5rem;
 }
 
@@ -1143,8 +1154,8 @@ a:hover, a:focus {
   padding: 0.8rem 1.1rem;
   font-size: 1.05rem;
   font-family: inherit;
-  color: #ffffff;
-  background-color: #153823;
+  color: #07120a;
+  background-color: #ffffff;
   border: 1.5px solid #35774e;
   border-radius: var(--radius-sm);
   transition: var(--transition);
@@ -1156,13 +1167,13 @@ a:hover, a:focus {
 }
 
 .form-control option {
-  background-color: #153823;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #07120a;
 }
 
 .form-hint {
   font-size: 0.85rem;
-  color: var(--color-text-muted);
+  color: #0d3d20;
   margin-top: 0.35rem;
 }
 
@@ -1173,12 +1184,12 @@ a:hover, a:focus {
 }
 
 .form-notice {
-  background-color: #44240d;
+  background-color: #f5ead6;
   border-left: 4px solid var(--color-autumn);
   padding: 1rem 1.25rem;
   border-radius: var(--radius-sm);
   font-size: 0.95rem;
-  color: #f7a868;
+  color: #6b3f10;
   margin-bottom: 1.5rem;
 }
 
@@ -1186,10 +1197,10 @@ a:hover, a:focus {
    PIED DE PAGE (FOOTER VERT-NOIR) & LIENS DE LANGUES
    -------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #06120b; /* Vert-noir de fermeture */
-  color: #d1dfd6;
+  background-color: #0a1a10;
+  color: #b0c0b8;
   padding: 5rem 0 2rem 0;
-  border-top: 4px solid #2e774c;
+  border-top: 3px solid var(--color-border);
 }
 
 .footer-grid {
@@ -1222,7 +1233,7 @@ a:hover, a:focus {
   font-size: 0.98rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  color: #bad0c2;
+  color: #d4dcc4;
 }
 
 .footer-links {
@@ -1234,7 +1245,7 @@ a:hover, a:focus {
 }
 
 .footer-links a {
-  color: #bad0c2;
+  color: #d4dcc4;
   text-decoration: none;
   font-size: 0.98rem;
 }
@@ -1253,12 +1264,12 @@ a:hover, a:focus {
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.9rem;
-  color: #9eb1a4;
+  color: #c4ccb4;
 }
 
 /* Liens de langues cliquables en bas de page */
 .footer-lang {
-  color: #bad0c2;
+  color: #d4dcc4;
   text-decoration: underline;
   font-weight: 500;
   margin: 0 0.35rem;
@@ -1266,14 +1277,14 @@ a:hover, a:focus {
 }
 
 .footer-lang:hover, .footer-lang:focus {
-  color: #f7a868;
+  color: var(--color-autumn);
 }
 
 .footer-lang.active {
   color: #ffffff;
   font-weight: 800;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.18);
+  background-color: rgba(255, 255, 255, 0.12);
   padding: 0.2rem 0.55rem;
   border-radius: 4px;
 }
