@@ -8,7 +8,7 @@
 :root {
   /* Palette de couleurs : Vert Ardoise Sombre & Ambre Automne - WCAG AAA accessible */
   --color-forest-dark: #07120a;       /* Vert-noir profond pour entête et accents sombres */
-  --color-forest-header: #0d1f14;     /* Vert très foncé de l'en-tête */
+  --color-forest-header: #1a2e20;     /* Vert très foncé de l'en-tête */
   --color-forest-deep: #122218;       /* Vert forêt dense */
   --color-forest-primary: #1e5238;    /* Vert feuillage principal */
   --color-forest-light: #2e7a54;      /* Vert vif naturel */
@@ -613,9 +613,9 @@ a:hover, a:focus {
   gap: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
-  padding: 0.5rem 1.5rem;
+  padding: 0.6rem 1.8rem;
   border-radius: 50px;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--color-autumn);
   margin-bottom: 1.25rem;
