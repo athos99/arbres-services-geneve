@@ -1139,6 +1139,14 @@ textarea:focus-visible,
   color: #6b3f10;
 }
 
+.contact-detail-info {
+  font-size: 0.9rem;
+   color: #07120a;
+}
+
+
+
+
 .form-card {
   background-color: #f5ead6;
   border-radius: var(--radius-lg);
@@ -1364,6 +1372,10 @@ textarea:focus-visible,
     padding: 0;
 
   }
+
+#devis .container {
+   padding-left: 0;
+}
 
   .main-nav {
     display: none;
