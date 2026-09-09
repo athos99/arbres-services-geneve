@@ -13,7 +13,7 @@
   --color-forest-primary: #1e5238;    /* Vert feuillage principal */
   --color-forest-light: #2e7a54;      /* Vert vif naturel */
   --color-forest-tint: #163024;       /* Fond vert forêt intermédiaire */
-  
+
   --color-autumn: #d4883c;            /* Ambre bois chaud, contrasté sur vert foncé */
   --color-autumn-dark: #b07030;       /* Ambre foncé */
   --color-autumn-light: #3a1e08;      /* Fond sombre d'accent automnal */
@@ -260,7 +260,6 @@ textarea:focus-visible,
 }
 
 .topbar-contact {
-  display: flex;
   align-items: center;
   gap: 1.2rem;
 }
