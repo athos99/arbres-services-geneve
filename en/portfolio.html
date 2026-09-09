@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Portfolio & Realizations | ASG Arbres Services Genève</title>
-  <meta name="description" content="Browse through photos of our tree pruning, delicate felling, orchard trimming, landscaping, and transport projects in Geneva, Vernier, and Vaud.">
+  <title>Portfolio of Realisations &amp; Job Sites | ASG Trees Service Geneva</title>
+  <meta name="description" content="Discover in images our pruning, careful felling, orchard trimming, landscaping and removal work in Geneva, Vernier and the canton of Vaud.">
   <link rel="canonical" href="https://arbres-services-geneve.ch/en/portfolio.html">
   <link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/realisations.html">
   <link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/portfolio.html">
   <link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/portfolio.html">
-
+  <link rel="alternate" hreflang="x-default" href="https://arbres-services-geneve.ch/">
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+<style>h3.realisations-cta { color: #ffffff !important; }</style>
 </head>
 <body>
 
@@ -26,7 +27,7 @@
           <span class="swiss-cross-h"></span>
           <span class="swiss-cross-v"></span>
         </span>
-        <span>Swiss Quality • Project Portfolio</span>
+        <span>Swiss Quality &bull; Job Site Gallery</span>
       </div>
       <div class="topbar-right">
         <div class="topbar-contact">
@@ -34,9 +35,9 @@
           <a href="mailto:bendik.hauserman@bluewin.ch" class="topbar-link">✉️ bendik.hauserman@bluewin.ch</a>
         </div>
         <nav class="lang-switch" aria-label="Language selection">
-          <a href="../realisations.html">FR</a>
-          <a href="portfolio.html" class="active" aria-current="page">EN</a>
-          <a href="../de/portfolio.html">DE</a>
+          <a href="portfolio.html">FR</a>
+          <a href="en/portfolio.html" class="active" aria-current="page">EN</a>
+          <a href="de/portfolio.html">DE</a>
         </nav>
       </div>
     </div>
@@ -51,8 +52,8 @@
           </svg>
         </div>
         <div class="logo-text">
-          <span class="logo-title">ASG Arbres Services Genève</span>
-          <span class="logo-subtitle">Arboriculture & Landscaping • Vernier</span>
+          <span class="logo-title">ASG Trees Service Geneva</span>
+          <span class="logo-subtitle">Arboriculture &amp; Landscaping &bull; Vernier</span>
         </div>
       </a>
 
@@ -67,14 +68,14 @@
           <li><a href="index.html" class="nav-link">Home</a></li>
           <li><a href="services.html" class="nav-link">Services</a></li>
           <li><a href="team.html" class="nav-link">Our Team</a></li>
-          <li><a href="values.html" class="nav-link">Approach & Values</a></li>
+          <li><a href="values.html" class="nav-link">Approach &amp; Values</a></li>
           <li><a href="portfolio.html" class="nav-link active" aria-current="page">Portfolio</a></li>
-          <li><a href="contact.html" class="nav-link">Quote & Contact</a></li>
+          <li><a href="index.html#devis" class="nav-link">Contact</a></li>
         </ul>
       </nav>
 
       <div class="header-cta">
-        <a href="contact.html" class="btn btn-autumn">Quote Request</a>
+        <a href="contact.html" class="btn btn-autumn">Request a Quote</a>
       </div>
     </div>
   </header>
@@ -83,151 +84,171 @@
 
   <main id="main-content">
 
+    <!-- Hero Portfolio -->
     <section class="hero" style="padding: 4.5rem 0;">
       <div class="container hero-content">
-        <span class="hero-slogan-badge">Real Projects On Site</span>
-        <h1 class="hero-title">Our Work in Pictures</h1>
+        <span class="hero-slogan-badge">Real Project Gallery</span>
+        <h1 class="hero-title">Our Field Realisations</h1>
         <p class="hero-text">
-          Explore our tree climbing, delicate felling, orchard pruning, and landscaping projects across Geneva and the Canton of Vaud.
+          Discover the diversity of our interventions with individuals, property managers and landscaping partners across Geneva and the canton of Vaud.
         </p>
       </div>
     </section>
 
+    <!-- Gallery with filters -->
     <section class="section">
       <div class="container">
 
-        <div class="gallery-filters" role="toolbar" aria-label="Filter portfolio projects">
-          <button class="filter-btn active" data-filter="all" aria-current="true">All Projects</button>
-          <button class="filter-btn" data-filter="elagage">Rope Pruning</button>
-          <button class="filter-btn" data-filter="nacelle">Aerial Platform</button>
-          <button class="filter-btn" data-filter="paysagisme">Landscaping & Orchards</button>
-          <button class="filter-btn" data-filter="transport">Transport & Machinery</button>
-          <button class="filter-btn" data-filter="equipe">Crew at Work</button>
+        <!-- Interactive filters with ARIA attributes for accessibility -->
+        <div class="gallery-filters" role="toolbar" aria-label="Filter realisations by category">
+          <button class="filter-btn active" data-filter="all" aria-current="true">All realisations</button>
+          <button class="filter-btn" data-filter="elagage">Pruning &amp; Climbing</button>
+          <button class="filter-btn" data-filter="nacelle">Elevating Bucket Truck</button>
+          <button class="filter-btn" data-filter="paysagisme">Landscaping &amp; Fruit Trees</button>
+          <button class="filter-btn" data-filter="transport">Transport &amp; Removal</button>
+          <button class="filter-btn" data-filter="equipe">Team in Action</button>
         </div>
 
+        <!-- Status for screen readers (low-vision) -->
         <div id="gallery-status" class="sr-only" role="status" aria-live="polite"></div>
 
+        <!-- Photo grid -->
         <div class="gallery-grid">
 
+          <!-- Item 1: Rope pruning -->
           <div class="gallery-item" data-category="elagage">
-            <img src="../images/grimpeurs.jpeg" alt="Two climbers thinning tree canopy" loading="lazy">
+            <img src="images/grimpeurs.jpeg" alt="Two climbing arborists thinning the crown" loading="lazy">
             <div class="gallery-caption">
               <span class="gallery-tag">Rope Pruning</span><br>
-              Crown thinning in large deciduous canopy
+              Reasoned pruning in the crown of a large tree
             </div>
           </div>
 
+          <!-- Item 2: Technical climber -->
           <div class="gallery-item" data-category="elagage">
-            <img src="../images/grimpeur2.jpeg" alt="Tree climber on technical ropes" loading="lazy">
+            <img src="images/grimpeur2.jpeg" alt="Climbing arborist ascending technically on a rappel rope" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Technical Climbing</span><br>
-              Delicate access on certified lines
+              <span class="gallery-tag">Climbing Technique</span><br>
+              Delicate access on certified ropes
             </div>
           </div>
 
+          <!-- Item 3: Fruit tree realisation -->
           <div class="gallery-item" data-category="paysagisme">
-            <img src="../images/realisation1.jpeg" alt="Fruit tree maintenance" loading="lazy">
+            <img src="images/realisation1.jpeg" alt="Formation and fruit-bearing pruning of fruit trees in an orchard" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Fruit Trees</span><br>
-              Careful shaping and pruning
+              <span class="gallery-tag">Fruit Pruning</span><br>
+              Careful maintenance of fruit trees
             </div>
           </div>
 
+          <!-- Item 4: Large deciduous subject -->
           <div class="gallery-item" data-category="elagage">
-            <img src="../images/realisation2.jpeg" alt="Large tree sanitary pruning in Geneva" loading="lazy">
+            <img src="images/realisation2.jpeg" alt="Hygienic pruning and securing of a majestic tree" loading="lazy">
             <div class="gallery-caption">
               <span class="gallery-tag">Tree Care</span><br>
-              Deadwood removal and crown balance
+              Removal of dead and dangerous branches
             </div>
           </div>
 
+          <!-- Item 5: Bucket truck 1 -->
           <div class="gallery-item" data-category="nacelle">
-            <img src="../images/nacelle1.jpeg" alt="Aerial cherry picker platform" loading="lazy">
+            <img src="images/nacelle1.jpeg" alt="Elevating bucket truck deployed for teardown in confined space" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Platform</span><br>
-              Felling overhanging building structures
+              <span class="gallery-tag">Bucket Truck</span><br>
+              Teardown of a tree overhanging buildings
             </div>
           </div>
 
+          <!-- Item 6: Bucket truck 2 -->
           <div class="gallery-item" data-category="nacelle">
-            <img src="../images/nacelle2.jpeg" alt="Aerial platform view" loading="lazy">
+            <img src="images/nacelle2.jpeg" alt="Aerial view of a bucket-truck operation in Geneva" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Platform</span><br>
-              High altitude tree securing
+              <span class="gallery-tag">Bucket Truck</span><br>
+              Securing a crown at great height
             </div>
           </div>
 
+          <!-- Item 7: Landscaping &amp; Terraces -->
           <div class="gallery-item" data-category="paysagisme">
-            <img src="../images/realisation3.jpeg" alt="Landscaping with wooden terrace" loading="lazy">
+            <img src="images/realisation3.jpeg" alt="Creation of a natural landscaping space with terrace" loading="lazy">
             <div class="gallery-caption">
               <span class="gallery-tag">Landscaping</span><br>
-              Harmonious garden and wooden terrace
+              Harmonious and vegetated landscaping fitting
             </div>
           </div>
 
+          <!-- Item 8: Landscaping finish -->
           <div class="gallery-item" data-category="paysagisme">
-            <img src="../images/realisation4.jpeg" alt="Garden design and plant care" loading="lazy">
+            <img src="images/realisation4.jpeg" alt="Vegetal renovation and ornamental tree planting" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Design</span><br>
-              Native planting and soil enrichment
+              <span class="gallery-tag">Fitting</span><br>
+              Living hedges and soil enhancement
             </div>
           </div>
 
+          <!-- Item 9: Transport 1 -->
           <div class="gallery-item" data-category="transport">
-            <img src="../images/transport1.jpeg" alt="Transport truck and gear" loading="lazy">
+            <img src="images/transport1.jpeg" alt="4-tonne ASG transport vehicle and equipment" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Transport 4T</span><br>
-              Timber hauling and debris disposal
+              <span class="gallery-tag">4T Transport</span><br>
+              Removal of pruning debris and logs
             </div>
           </div>
 
+          <!-- Item 10: Transport 2 -->
           <div class="gallery-item" data-category="transport">
-            <img src="../images/transport2.jpeg" alt="Wood chipping and evacuation" loading="lazy">
+            <img src="images/transport2.jpeg" alt="Loading and wood grinding on job site" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">Chipping & Logistics</span><br>
-              Full site cleanup following felling
+              <span class="gallery-tag">Grinding &amp; Clearance</span><br>
+              Complete job site cleaning after cutting
             </div>
           </div>
 
+          <!-- Item 11: Team 1 -->
           <div class="gallery-item" data-category="equipe">
-            <img src="../images/equipe1.jpeg" alt="ASG team preparing on site" loading="lazy">
+            <img src="images/equipe1.jpeg" alt="ASG Trees Service Geneva team members at work" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">ASG Crew</span><br>
-              Safety briefing and gear preparation
+              <span class="gallery-tag">ASG Team</span><br>
+              Safety briefing and equipment preparation
             </div>
           </div>
 
+          <!-- Item 12: Team 2 -->
           <div class="gallery-item" data-category="equipe">
-            <img src="../images/equipe2.jpeg" alt="Team teamwork on site" loading="lazy">
+            <img src="images/equipe2.jpeg" alt="Collaboration on terrain for site securing" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">ASG Crew</span><br>
-              Ground rigging and branch guiding
+              <span class="gallery-tag">ASG Team</span><br>
+              Ground coordination and load guidance
             </div>
           </div>
 
+          <!-- Item 13: Team 3 -->
           <div class="gallery-item" data-category="equipe">
-            <img src="../images/equipe3.jpeg" alt="Arborist with full PPE" loading="lazy">
+            <img src="images/equipe3.jpeg" alt="Arboriculture professional equipped with complete PPE" loading="lazy">
             <div class="gallery-caption">
-              <span class="gallery-tag">PPE Standards</span><br>
-              Certified protective equipment
+              <span class="gallery-tag">PPE Safety</span><br>
+              Protective equipment meeting Swiss standards
             </div>
           </div>
 
+          <!-- Item 14: Team 4 -->
           <div class="gallery-item" data-category="equipe">
-            <img src="../images/equipe4.jpeg" alt="Tree pruning detail cut" loading="lazy">
+            <img src="images/equipe4.jpeg" alt="ASG Arborist in progress on an ornamental tree" loading="lazy">
             <div class="gallery-caption">
               <span class="gallery-tag">Precision</span><br>
-              Clean cuts preserving tree defense
+              Clean cut favouring callus formation
             </div>
           </div>
 
         </div>
 
+        <!-- Quote request -->
         <div style="text-align: center; margin-top: 4rem;">
-          <h3 style="font-family: var(--font-heading); font-size: 1.6rem; color: var(--color-forest-dark); margin-bottom: 1rem;">
-            Do you have a project for your property?
+          <h3 class="realisations-cta" style="font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1rem;">
+            A similar project for your property or condominium?
           </h3>
-          <a href="contact.html" class="btn btn-autumn">Quote Request</a>
+          <a href="contact.html" class="btn btn-autumn">Request a Quote</a>
         </div>
 
       </div>
@@ -236,17 +257,19 @@
   </main>
 
 
+
   <!-- ==================================================================== -->
-  <!-- INTERVENTION D'URGENCE INTEMPÉRIES (EN BAS DE PAGE)                -->
+  <!-- BAD-WEATHER EMERGENCY INTERVENTION (END OF PAGE)                      -->
   <!-- ==================================================================== -->
-  <aside class="emergency-banner" aria-label="Storm emergency">
+  <!-- Emergency banner -->
+  <aside class="emergency-banner" aria-label="Emergency intervention">
     <div class="container emergency-content">
       <div class="emergency-text">
-        <div class="emergency-icon" aria-hidden="true">⚠️</div>
+        <div class="emergency-icon" aria-hidden="true">&#9888;&#65039;</div>
         <div>
-          <div class="emergency-heading">Storm & Severe Weather Emergency Response</div>
+          <div class="emergency-heading">Bad-weather emergency intervention</div>
           <p class="emergency-desc">
-            In case of storms or imminent risk of falling trees in Geneva or Vaud, we intervene immediately.
+            In the event of a storm or imminent tree fall in Geneva or the canton of Vaud, we intervene immediately.
           </p>
         </div>
       </div>
@@ -258,39 +281,39 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <div class="logo-title" style="color:#fff;">ASG Arbres Services Genève</div>
-          <p class="footer-desc">The art of taking care of your trees. Pruning, felling and landscaping in Geneva and Vaud.</p>
+          <div class="logo-title" style="color:#fff;">ASG Trees Service Geneva</div>
+          <p class="footer-desc">The art of caring for your trees. Pruning, careful felling and landscaping in Geneva and Vaud.</p>
         </div>
         <div>
           <h3 class="footer-col-title">Navigation</h3>
           <ul class="footer-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="team.html">Our Team</a></li>
+            <li><a href="team.html">Team</a></li>
             <li><a href="values.html">Values</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="footer-col-title">Emergency</h3>
-          <p class="footer-desc">Urgent response Geneva & Vaud:</p>
+          <h3 class="footer-col-title">Bad-Weather Emergency</h3>
+          <p class="footer-desc">Rapid interventions in Geneva &amp; Vaud:</p>
           <a href="tel:+41799217723" style="color:#fff; font-weight:700; font-size:1.1rem; text-decoration:none;">📞 +41 79 921 77 23</a>
         </div>
         <div>
           <h3 class="footer-col-title">Contact</h3>
-          <p class="footer-desc">Bendik Häuserman<br>Vernier (GE) - Switzerland<br><a href="mailto:bendik.hauserman@bluewin.ch" style="color:#fff;">bendik.hauserman@bluewin.ch</a></p>
+          <p class="footer-desc">Bendik Hausesman<br>Vernier (GE) - Switzerland<br><a href="mailto:bendik.hauserman@bluewin.ch" style="color:#fff;">bendik.hauserman@bluewin.ch</a></p>
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; ASG Arbres Services Genève • Swiss Quality</div>
+        <div>&copy; ASG Trees Service Geneva &bull; Swiss Quality</div>
         <div class="footer-languages">
-          <a href="../realisations.html" class="footer-lang">Français</a> • <a href="portfolio.html" class="footer-lang active" aria-current="page">English</a> • <a href="../de/portfolio.html" class="footer-lang">Deutsch</a>
+          <a href="portfolio.html" class="footer-lang">Francais</a> &bull; <a href="en/portfolio.html" class="footer-lang active" aria-current="page">English</a> &bull; <a href="de/portfolio.html" class="footer-lang">Deutsch</a>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
