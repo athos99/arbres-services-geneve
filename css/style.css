@@ -24,6 +24,7 @@
   --color-text-main: #f0f0e8;         /* Texte principal presque blanc, contraste max */
   --color-text-muted: #b8c4aa;        /* Texte secondaire clair, WCAG AA sur vert foncé (contraste amélioré) */
   --color-text-inverse: #ffffff;      /* Blanc pur */
+  --color-text-dark: #12251a;         /* Texte fonce */
 
   --color-bg-body: #12251a;           /* Fond principal vert très sombre */
   --color-bg-card: #1a3326;           /* Cartes vert feuillage sombre */
