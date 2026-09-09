@@ -5,7 +5,7 @@
   <!-- ==================== ACCUEIL / HOME / STARTSEITE ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://arbres-services-geneve.ch/"/>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/"/>
     <lastmod>2026-09-08</lastmod>
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/"/>
     <lastmod>2026-09-08</lastmod>
@@ -35,7 +35,7 @@
   <!-- ==================== SERVICES ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/services.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/services.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/services.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/services.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/services.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/services.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -53,7 +53,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/services.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/services.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/services.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -64,7 +64,7 @@
   <!-- ==================== ÉQUIPE / TEAM ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/equipe.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/equipe.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/equipe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/team.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/team.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -73,7 +73,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/team.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/equipe.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/equipe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/team.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/team.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/team.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/equipe.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/equipe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/team.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/team.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -93,7 +93,7 @@
   <!-- ==================== VALEURS / VALUES / WERTE ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/valeurs.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/valeurs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/valeurs.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/values.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/werte.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/values.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/valeurs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/valeurs.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/values.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/werte.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/werte.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/valeurs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/valeurs.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/values.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/werte.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -122,7 +122,7 @@
   <!-- ==================== RÉALISATIONS / PORTFOLIO ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/realisations.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/realisations.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/realisations.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/portfolio.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/portfolio.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/realisations.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/realisations.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/portfolio.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/portfolio.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/realisations.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/realisations.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/portfolio.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/portfolio.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -151,7 +151,7 @@
   <!-- ==================== CONTACT / DEVIS ==================== -->
   <url>
     <loc>https://arbres-services-geneve.ch/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/kontakt.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -160,7 +160,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/en/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/kontakt.html"/>
     <lastmod>2026-09-08</lastmod>
@@ -169,7 +169,7 @@
   </url>
   <url>
     <loc>https://arbres-services-geneve.ch/de/kontakt.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://arbres-services-geneve.ch/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://arbres-services-geneve.ch/de/kontakt.html"/>
     <lastmod>2026-09-08</lastmod>
