@@ -22,13 +22,13 @@
   --color-swiss-dark: #a81d13;        /* Rouge sombre pour contraste */
 
   --color-text-main: #f0f0e8;         /* Texte principal presque blanc, contraste max */
-  --color-text-muted: #d4dcc4;        /* Texte secondaire clair, WCAG AA sur vert foncé */
+  --color-text-muted: #b8c4aa;        /* Texte secondaire clair, WCAG AA sur vert foncé (contraste amélioré) */
   --color-text-inverse: #ffffff;      /* Blanc pur */
 
   --color-bg-body: #12251a;           /* Fond principal vert très sombre */
   --color-bg-card: #1a3326;           /* Cartes vert feuillage sombre */
   --color-bg-card-alt: #1f3d2e;       /* Variante de carte */
-  --color-border: #2a5a42;            /* Bordures vertes visibles */
+  --color-border: #3a7a5a;            /* Bordures vertes visibles (contraste amélioré) */
 
   /* Typographie */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -120,6 +120,17 @@ a:hover, a:focus {
 :focus-visible {
   outline: 3px solid var(--color-autumn) !important;
   outline-offset: 3px !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #558B2F !important;
+  outline-offset: 2px !important;
+  border-radius: 2px !important;
 }
 
 /* --------------------------------------------------------------------------
