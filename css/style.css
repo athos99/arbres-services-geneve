@@ -1360,6 +1360,11 @@ textarea:focus-visible,
     display: block;
   }
 
+  .header-cta .btn {
+    padding: 0;
+
+  }
+
   .main-nav {
     display: none;
     position: absolute;
