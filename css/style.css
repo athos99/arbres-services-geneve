@@ -1085,9 +1085,15 @@ textarea:focus-visible,
   transition: transform 0.4s ease, opacity 0.3s ease;
 }
 
-.gallery-item:hover img {
+.gallery-item:hover img,
+.gallery-item:focus-within img {
   transform: scale(1.06);
   opacity: 0.85;
+}
+
+.gallery-item:focus-within {
+  outline: 3px solid var(--color-autumn);
+  outline-offset: 2px;
 }
 
 .gallery-caption {
@@ -1101,6 +1107,13 @@ textarea:focus-visible,
   font-size: 0.92rem;
   font-weight: 600;
   line-height: 1.35;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption,
+.gallery-item:focus-within .gallery-caption {
+  transform: translateY(-4px);
 }
 
 .gallery-tag {
