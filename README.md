@@ -170,6 +170,3 @@ Une fois vos modifications terminées :
 
 Si vous avez téléchargé l'archive `asg-arbres-services-geneve.zip`, décompressez-la et envoyez tous les fichiers et dossiers qu'elle contient.
 
----
-
--
