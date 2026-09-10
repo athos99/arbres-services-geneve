@@ -1,6 +1,6 @@
 # ASG Arbres Services Genève - Guide du site
 
-Le site est pré-visuable : https://athos99.github.io/arbres-services-geneve/
+Le site est pré-visuable : <a href="https://athos99.github.io/arbres-services-geneve/" target="_blank" rel="noopener noreferrer">https://athos99.github.io/arbres-services-geneve/</a>
 
 Pour avoir le contenu du site sous format zip: https://github.com/athos99/arbres-services-geneve/archive/refs/heads/main.zip
 
