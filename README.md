@@ -38,7 +38,7 @@ arbres-services-geneve/
 
 ## ✏️ Guide pour un non-spécialiste : Comment modifier les textes ?
 Le code HTML a été spécialement conçu et commenté pour être modifiable par une personne sans compétences informatiques :
-1. Ouvrez le fichier de la page souhaitée (ex: `index.html` ou `contact.html`) dans n'importe quel éditeur de texte (Bloc-notes, VS Code, etc.).
+1. Ouvrez le fichier de la page souhaitée (ex: `index.html` ) dans n'importe quel éditeur de texte (Bloc-notes, VS Code, etc.).
 2. Repérez les sections clairement indiquées par des balises de commentaires comme `<!-- SÉLECTEUR DE LANGUE -->`, `<!-- SECTION HERO -->`, etc.
 3. Modifiez simplement le texte entre les balises sans toucher aux chevrons `<` et `>`.
 4. Enregistrez le fichier.
