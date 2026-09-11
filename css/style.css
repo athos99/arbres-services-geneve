@@ -1471,3 +1471,121 @@ textarea:focus-visible,
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   CLASSES UTILITAIRES POUR COULEURS DE TEXTE
+   (Pour remplacer les style="color: ..." inline)
+   ========================================================================== */
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-white-80 {
+  color: #ffffffcc;
+}
+
+.text-muted-footer {
+  color: #b8c8bc;
+}
+
+.text-muted-footer-alt {
+  color: #d4dcc4;
+}
+
+.text-light-warm {
+  color: #e8d8c4;
+}
+
+.text-light-green {
+  color: #e5efe8;
+}
+
+.text-light-beige {
+  color: #e0e8dc;
+}
+
+.text-dark-green {
+  color: #07120a;
+}
+
+.text-dark-green-light {
+  color: #0d3d20;
+}
+
+.text-dark-green-soft {
+  color: #12251a;
+}
+
+.text-amber-dark {
+  color: #6b3f10;
+}
+
+.text-red-required {
+  color: #d52b1e;
+}
+
+.text-emergency-yellow {
+  color: #fff9e6;
+}
+
+.text-emergency-light {
+  color: #fce8e6;
+}
+
+.text-accent-green {
+  color: #5ec480;
+}
+
+.text-footer-link {
+  color: #d4dcc4;
+}
+
+.text-footer-tertiary {
+  color: #c4ccb4;
+}
+
+.text-main {
+  color: var(--color-text-main);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-dark {
+  color: var(--color-text-dark);
+}
+
+.text-forest {
+  color: var(--color-forest-dark);
+}
+
+.text-accent {
+  color: var(--color-autumn);
+}
+
+.text-green {
+  color: #2e7a54;
+}
+
+.text-bg-card {
+  color: #ffffff;
+}
+
+.text-card {
+  color: #d8e0d8;
+}
+
+.text-card-title {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   CLASSES POUR BACKGROUND ET BORDURES UTILITAIRES
+   ========================================================================== */
+
+.bg-forest-tint {
+  background-color: var(--color-forest-tint);
+  border: 1px solid var(--color-border);
+}

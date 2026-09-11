@@ -345,12 +345,12 @@
           </article>
 
           <!-- Summary card Values / Direct contact -->
-          <article class="service-card" style="background-color: var(--color-forest-dark); color: #ffffff;">
+          <article class="service-card" style="background-color: var(--color-forest-dark);" class="text-bg-card">
             <div class="service-card-body"
               style="justify-content: center; text-align: center; padding: 2.5rem 1.75rem;">
               <span style="font-size: 2.5rem; margin-bottom: 1rem;" aria-hidden="true">🤝</span>
-              <h3 class="service-card-title" style="color: #ffffff;">A relationship of trust and proximity</h3>
-              <p class="service-card-desc" style="color: var(--color-text-muted);">
+              <h3 class="service-card-title" class="text-white" style="">A relationship of trust and proximity</h3>
+              <p class="service-card-desc" class="text-muted" style=";">
                 We take the time to listen, observe your wooded environment and advise you with complete transparency,
                 without unnecessary interventions.
               </p>
@@ -410,7 +410,7 @@
         <!-- Target audiences: who are we addressing? -->
         <div style="margin-top: 4rem;">
           <h3
-            style="font-family: var(--font-heading); font-size: 1.6rem; color: #ffffff; text-align: center; margin-bottom: 1.5rem;">
+            style="font-family: var(--font-heading); font-size: 1.6rem; text-align: center; margin-bottom: 1.5rem;" class="text-white">
             Solutions tailored to every need
           </h3>
 
@@ -419,7 +419,7 @@
             <!-- Private homeowners -->
             <div class="target-card">
               <h4 class="target-title">🏡 For Homeowners</h4>
-              <p style="color: var(--color-text-muted); font-size: 0.98rem;">
+              <p style="font-size: 0.98rem" class="text-muted">
                 For villa and private garden owners concerned about the safety and beauty of their trees.
               </p>
               <ul class="target-list">
@@ -433,7 +433,7 @@
             <!-- Property management companies -->
             <div class="target-card target-regie">
               <h4 class="target-title">🏢 For Property Managers &amp; Businesses</h4>
-              <p style="color: var(--color-text-muted); font-size: 0.98rem;">
+              <p style="font-size: 0.98rem" class="text-muted">
                 For sustainable management, securing apartment building courtyards and corporate green spaces.
               </p>
               <ul class="target-list">
@@ -447,7 +447,7 @@
             <!-- Landscape professionals -->
             <div class="target-card target-paysagiste">
               <h4 class="target-title">🌿 For Landscape Professionals</h4>
-              <p style="color: var(--color-text-muted); font-size: 0.98rem;">
+              <p style="font-size: 0.98rem" class="text-muted">
                 A trusted technical partner for all your projects requiring complex high-altitude work.
               </p>
               <ul class="target-list">
@@ -573,7 +573,7 @@
           <!-- Contact details & information panel -->
           <div class="contact-info-panel">
             <h3
-              style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-forest-dark); margin-bottom: 1.25rem;">
+              style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1.25rem;" class="text-dark">
               Direct contact details
             </h3>
 
@@ -618,7 +618,7 @@
             </div>
 
             <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border);">
-              <div class="swiss-badge" style="color: var(--color-forest-dark);">
+              <div class="swiss-badge text-forest">
                 <span class="swiss-flag" aria-hidden="true">
                   <span class="swiss-cross-h"></span>
                   <span class="swiss-cross-v"></span>
@@ -631,10 +631,10 @@
           <!-- Request for a quote or information -->
           <div class="form-card">
             <h3
-              style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-forest-dark); margin-bottom: 0.5rem;">
+              style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 0.5rem;" class="text-dark">
               Request for a quote or information
             </h3>
-            <p style="color: #0d3d20; font-size: 0.95rem; margin-bottom: 1.5rem;">
+            <p style="font-size: 0.95rem; margin-bottom: 1.5rem;" class="text-dark-green-light">
               This form prep your message instantly for <code>bendik.hauserman@bluewin.ch</code> with no intermediary
               and no personal data storage.
             </p>
@@ -645,8 +645,7 @@
 
               <div class="form-grid-2">
                 <div class="form-group">
-                  <label for="form-name" class="form-label">Your Name / Company <span aria-hidden="true"
-                      style="color:red;">*</span></label>
+              <label for="form-name" class="form-label">Your Name / Company <span class="text-red-required">*</span></label>
                   <input type="text" id="form-name" class="form-control" required placeholder="e.g. Jean Dupont"
                     aria-required="true">
                 </div>
@@ -664,8 +663,7 @@
 
               <div class="form-grid-2">
                 <div class="form-group">
-                  <label for="form-phone" class="form-label">Phone number <span aria-hidden="true"
-                      style="color:red;">*</span></label>
+              <label for="form-phone" class="form-label">Phone number <span class="text-red-required">*</span></label>
                   <input type="tel" id="form-phone" class="form-control" placeholder="e.g. +41 79 123 45 67">
                 </div>
                 <div class="form-group">
@@ -698,14 +696,13 @@
                 <label style="display: flex; align-items: center; gap: 0.6rem; cursor: pointer;">
                   <input type="checkbox" id="form-urgent"
                     style="width: 18px; height: 18px; accent-color: var(--color-swiss-red);">
-                  <span style="font-weight: 700; color: var(--color-swiss-red);">Is this an emergency intervention due
+                  <span             style="font-weight: 700;" class="text-red-required">Is this an emergency intervention due
                     to weather / falling branch risk?</span>
                 </label>
               </div>
 
               <div class="form-group">
-                <label for="form-message" class="form-label">Tree description &amp; your needs <span aria-hidden="true"
-                    style="color:red;">*</span></label>
+              <label for="form-message" class="form-label">Tree description &amp; your needs <span class="text-red-required">*</span></label>
                 <textarea id="form-message" class="form-control" rows="4" required
                   placeholder="Specify the number of trees, species if known, approximate height and accessibility..."
                   aria-required="true"></textarea>
@@ -766,19 +763,19 @@
 
         <!-- Column 1: About -->
         <div>
-          <div class="logo-title" style="color: #ffffff; margin-bottom: 0.5rem;">ASG Arbres Services Genève</div>
+          <div class="logo-title" style="class="text-white" margin-bottom: 0.5rem;">ASG Arbres Services Genève</div>
           <div class="swiss-badge" style="margin-bottom: 1rem;">
             <span class="swiss-flag" aria-hidden="true">
               <span class="swiss-cross-h"></span>
               <span class="swiss-cross-v"></span>
             </span>
-            <span style="color: #ffffff;">Certified Swiss Quality</span>
+            <span class="text-white">Certified Swiss Quality</span>
           </div>
           <p class="footer-desc">
             The art of caring for your trees. Technical rope and crane pruning, delicate felling and landscaping in
             Geneva and the canton of Vaud.
           </p>
-          <p style="font-size: 0.95rem; color: #e8d8c4;">
+          <p style="font-size: 0.95rem;" class="text-light-warm">
             Founder: <strong>Bendik Häuserman</strong><br>
             Vernier (GE) - Switzerland
           </p>
@@ -818,16 +815,16 @@
           </p>
           <p style="margin-bottom: 0.75rem;">
             <a href="tel:+41799217723"
-              style="color: #ffffff; font-weight: 700; text-decoration: none; font-size: 1.15rem;">
+              style="class="text-white" font-weight: 700; text-decoration: none; font-size: 1.15rem;">
               📞 +41 79 921 77 23
             </a>
           </p>
           <p style="margin-bottom: 1.25rem;">
-            <a href="mailto:bendik.hauserman@bluewin.ch" style="color: #ffffff; text-decoration: none;">
+            <a href="mailto:bendik.hauserman@bluewin.ch" style="class="text-white" text-decoration: none;">
               ✉️ bendik.hauserman@bluewin.ch
             </a>
           </p>
-          <div style="font-size: 0.88rem; color: #b8c8bc;">
+          <div style="font-size: 0.88rem;" class="text-muted">
             Area: Canton of Geneva and Vaud.
           </div>
         </div>
@@ -842,7 +839,7 @@
           <a href="../index.html" class="footer-lang">Français</a> • <a href="index.html" class="footer-lang active"
             aria-current="page">English</a> • <a href="../de/index.html" class="footer-lang">Deutsch</a>
         </div>
-        <div style="font-size: 0.82rem; color: #b8c8bc; margin-top: 0.75rem; width: 100%; text-align: center;">
+        <div style="font-size: 0.82rem; margin-top: 0.75rem; width: 100%; text-align: center;" class="text-muted">
           WCAG 2.1 AA compliant -- Accessible to visually impaired people
         </div>
       </div>
