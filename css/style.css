@@ -123,10 +123,14 @@ a:focus {
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-lg);
   outline: 3px solid var(--color-autumn);
+  transition: top 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 
 .skip-link:focus {
   top: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 0 5px rgba(212, 136, 60, 0.5);
+  background-color: #1a1a1a;
+  outline-offset: 4px;
 }
 
 .sr-only {
