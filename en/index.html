@@ -15,8 +15,8 @@
 
   <!-- Multilingual hreflang tags -->
   <link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/">
-  <link rel="alternate" hreflang="de-CH" href="https://arbres-services-geneve.ch/de/">
   <link rel="alternate" hreflang="en" href="https://arbres-services-geneve.ch/en/">
+  <link rel="alternate" hreflang="de-CH" href="https://arbres-services-geneve.ch/de/">
   <link rel="alternate" hreflang="x-default" href="https://arbres-services-geneve.ch/">
 
   <!-- Open Graph / Social Media -->
@@ -32,7 +32,7 @@
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="../css/style.css?v=20260911">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- Schema.org Structured Data LocalBusiness -->
   <script type="application/ld+json">
@@ -111,7 +111,7 @@
 
         <!-- SIMPLE LANGUAGE SELECTOR AT TOP OF PAGE -->
         <nav class="lang-switch" aria-label="Language selection">
-          <a href="../index.html" aria-current="page" title="Français">FR</a>
+          <a href="../index.html" title="Français">FR</a>
           <a href="index.html" class="active" aria-current="page" title="English">EN</a>
           <a href="../de/index.html" title="Deutsch">DE</a>
         </nav>
@@ -344,12 +344,12 @@
           </article>
 
           <!-- Summary card Values / Direct contact -->
-          <article class="service-card" style="background-color: var(--color-forest-dark);" class="text-bg-card">
+          <article class="service-card" style="background-color: var(--color-forest-dark);">
             <div class="service-card-body"
               style="justify-content: center; text-align: center; padding: 2.5rem 1.75rem;">
               <span style="font-size: 2.5rem; margin-bottom: 1rem;" aria-hidden="true">🤝</span>
-              <h3 class="service-card-title" >A relationship of trust and proximity</h3>
-              <p class="service-card-desc" class="text-muted" >
+              <h3 class="service-card-title">A relationship of trust and proximity</h3>
+              <p class="service-card-desc">
                 We take the time to listen, observe your wooded environment and advise you with complete transparency,
                 without unnecessary interventions.
               </p>
@@ -392,7 +392,7 @@
               founding his own company <strong>ASG Arbres Services Genève</strong>.
             </p>
             <p class="founder-bio">
-              Polglot and deeply attentive to your needs, he proposes and executes the tailor-made solution suited to
+              Polyglot and deeply attentive to your needs, he proposes and executes the tailor-made solution suited to
               each tree and every situation.
             </p>
 
@@ -496,7 +496,6 @@
     </section>
 
     <!-- ================================================================== -->
-    <!-- ================================================================== -->
     <!-- QUOTE FORM AND QUICK CONTACT                                       -->
     <!-- ================================================================== -->
     <section class="section" id="contact" aria-labelledby="devis-title">
@@ -514,8 +513,7 @@
 
           <!-- Contact details & information panel -->
           <div class="contact-info-panel">
-            <h3
-              style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1.25rem;" class="text-dark">
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1.25rem;">
               Direct contact details
             </h3>
 
@@ -566,7 +564,7 @@
                   <span class="swiss-cross-v"></span>
                 </span>
                 <span>Trusted Swiss company</span>
-                            </div>
+              </div>
             </div>
           </div>
 
@@ -579,11 +577,13 @@
 
   </main>
 
+
+
   <!-- ==================================================================== -->
   <!-- FOOTER                                                                -->
+
   <!-- ==================================================================== -->
-  <!-- ==================================================================== -->
-  <!-- WEATHER EMERGENCY BANNER                   -->
+  <!-- WEATHER EMERGENCY BANNER (AT BOTTOM)                                 -->
   <!-- ==================================================================== -->
   <aside class="emergency-banner" aria-label="Weather emergency intervention">
     <div class="container emergency-content">
@@ -701,7 +701,7 @@
   </footer>
 
   <!-- Interactive script -->
-  <script src="../js/main.js?v=20260911"></script>
+  <script src="js/main.js"></script>
   <script>
     // Auto-update year
     document.getElementById('current-year').textContent = new Date().getFullYear();
