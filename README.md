@@ -22,10 +22,8 @@ arbres-services-geneve/
 ├── services.html           # Prestations détaillées (FR)
 ├── equipe.html             # Bendik & l'équipe (FR)
 ├── valeurs.html            # Approche & valeurs (FR)
-├── realisations.html       # Galerie photos avec filtres (FR)
-├── contact.html            # Formulaire de contact (FR)
-├── en/                     # Version anglaise (6 pages)
-├── de/                     # Version allemande (6 pages)
+├── en/                     # Version anglaise (4 pages)
+├── de/                     # Version allemande (4 pages)
 ├── css/
 │   └── style.css           # Design et mise en page
 ├── js/
