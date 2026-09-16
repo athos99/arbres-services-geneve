@@ -40,6 +40,9 @@
   --color-emergency-dark: #8B0000;
   /* Rouge foncé */
 
+  --color-forest-dark: #112d1a;
+  /* Fond sombre pour cartes texte clair - contraste WCAG AA+ */
+
   --color-border: #E0E0E0;
   /* Bordures claires */
   --color-border-light: #F0F0F0;
@@ -794,6 +797,11 @@ textarea:focus-visible,
   transition: var(--transition);
 }
 
+.bg-forest-dark .service-card {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
 .service-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
@@ -835,6 +843,12 @@ textarea:focus-visible,
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.service-card-centered {
+  justify-content: center;
+  text-align: center;
+  padding: 2.5rem 1.75rem;
 }
 
 .service-card-title {
@@ -1520,6 +1534,10 @@ textarea:focus-visible,
 .text-accent { color: var(--color-accent); }
 .text-green { color: var(--color-primary); }
 .text-bg-card { color: var(--color-bg-card); }
+
+/* Texte clair sur fond sombre (cartes values, contact) */
+.bg-forest-dark { background-color: var(--color-forest-dark); }
+.text-inverse { color: var(--color-text-inverse); }
 .text-card { color: #424242; }
 .text-card-title { color: var(--color-text-main); }
 
