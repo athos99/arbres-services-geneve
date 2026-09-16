@@ -195,11 +195,6 @@ textarea:focus-visible,
   border-bottom: 1px solid var(--color-border);
 }
 
-.section-dark {
-  background-color: #212121;
-  color: #FAFAF9;
-}
-
 .section-header {
   text-align: center;
   max-width: 780px;
@@ -689,27 +684,6 @@ textarea:focus-visible,
   flex-wrap: wrap;
 }
 
-/* Bouton ouverture popup */
-.hero-popup-trigger {
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-popup-trigger::after {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 60%);
-  animation: shimmer 3s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-  0%, 100% { transform: translateX(-30%); }
-  50% { transform: translateX(30%); }
-}
 
 .hero-trust {
   display: flex;
@@ -747,12 +721,6 @@ textarea:focus-visible,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 2.5rem;
-}
-
-.grid-4 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
 }
 
 .service-card {
@@ -1114,64 +1082,6 @@ textarea:focus-visible,
   color: var(--color-accent);
 }
 
-.contact-detail-info {
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-}
-
-/* Formulaire de contact */
-.form-card {
-  background-color: var(--color-bg-card);
-  border-radius: var(--radius-lg);
-  padding: 2.5rem;
-  border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-md);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-label {
-  display: block;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--color-text-main);
-  margin-bottom: 0.5rem;
-}
-
-.form-label .required {
-  color: var(--color-emergency);
-}
-
-.form-control {
-  width: 100%;
-  padding: 0.8rem 1.1rem;
-  font-size: 1.05rem;
-  font-family: inherit;
-  color: var(--color-text-main);
-  background-color: #FFFFFF;
-  border: 1.5px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  transition: var(--transition);
-}
-
-.form-control:focus {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.12);
-  outline: none;
-}
-
-.form-control::placeholder {
-  color: var(--color-accent-dark);
-  opacity: 1;
-}
-
-.form-control option {
-  background-color: #FFFFFF;
-  color: var(--color-text-main);
-}
-
 /* ============================================================================
    PIED DE PAGE (FOOTER)
    ============================================================================ */
@@ -1384,8 +1294,6 @@ textarea:focus-visible,
 
 .text-white { color: #FFFFFF; }
 .text-light-warm { color: #D7CCC8; }
-.text-amber-dark { color: #6D4C41; }
-.text-red-required { color: #B71C1C; }
 .text-main { color: var(--color-text-main); }
 .text-muted { color: var(--color-text-muted); }
 .text-dark { color: var(--color-text-main); }
