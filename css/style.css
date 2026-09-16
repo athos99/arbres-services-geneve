@@ -1517,39 +1517,15 @@ textarea:focus-visible,
    ========================================================================== */
 
 .text-white { color: #FFFFFF; }
-.text-white-80 { color: #FFFFFFbb; }
-.text-muted-footer { color: #BDBDBD; }
-.text-muted-footer-alt { color: #D4D4D4; }
 .text-light-warm { color: #D7CCC8; }
-.text-light-green { color: #E0E0E0; }
-.text-light-beige { color: #EFEBE9; }
-.text-dark-green { color: #212121; }
-.text-dark-green-light { color: #424242; }
-.text-dark-green-soft { color: #616161; }
 .text-amber-dark { color: #6D4C41; }
 .text-red-required { color: #B71C1C; }
-.text-accent-green { color: var(--color-primary); }
-.text-footer-link { color: #BDBDBD; }
-.text-footer-tertiary { color: #BDBDBD; }
 .text-main { color: var(--color-text-main); }
 .text-muted { color: var(--color-text-muted); }
 .text-dark { color: var(--color-text-main); }
 .text-forest { color: var(--color-primary-dark); }
-.text-accent { color: var(--color-accent); }
-.text-green { color: var(--color-primary); }
-.text-bg-card { color: var(--color-bg-card); }
-
-/* Texte clair sur fond sombre (cartes values, contact) */
-.bg-forest-dark { background-color: var(--color-forest-dark); }
 .text-inverse { color: var(--color-text-inverse); }
-.text-card { color: #424242; }
-.text-card-title { color: var(--color-text-main); }
 
 /* ==========================================================================
    CLASSES BACKGROUND & BORDURES UTILITAIRES
    ========================================================================== */
-
-.bg-forest-tint {
-  background-color: var(--color-bg-alt);
-  border: 1px solid var(--color-border);
-}
