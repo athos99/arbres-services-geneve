@@ -705,7 +705,7 @@ textarea:focus-visible,
 }
 
 .trust-item svg {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 /* --------------------------------------------------------------------------
