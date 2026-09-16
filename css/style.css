@@ -540,21 +540,6 @@ textarea:focus-visible,
   color: #FFFFFF;
 }
 
-.btn-outline-white {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-color: #FFFFFF;
-  color: var(--color-text-main);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.btn-outline-white:hover,
-.btn-outline-white:focus {
-  background-color: #FFFFFF;
-  color: var(--color-text-main);
-  border-color: var(--color-primary);
-  box-shadow: var(--shadow-md);
-}
-
 .btn-outline-dark {
   background-color: transparent;
   border-color: var(--color-text-main);
@@ -567,24 +552,8 @@ textarea:focus-visible,
   color: #FFFFFF;
 }
 
-/* Bouton popup */
-.btn-popup {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
-  color: #FFFFFF;
-  font-size: 1.05rem;
-  padding: 0.85rem 2rem;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
-}
-
-.btn-popup:hover,
-.btn-popup:focus {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: var(--shadow-lg);
-}
-
 /* --------------------------------------------------------------------------
-   BANNIÈRE D'URGENCE INTEMPÉRIES
+    BANNIÈRE D'URGENCE INTEMPÉRIES
    -------------------------------------------------------------------------- */
 .emergency-banner {
   background: linear-gradient(135deg, #B71C1C, #8B0000);
@@ -1083,111 +1052,8 @@ textarea:focus-visible,
 }
 
 /* --------------------------------------------------------------------------
-   GALERIE DE RÉALISATIONS
-   -------------------------------------------------------------------------- */
-.gallery-filters {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 2.5rem;
-}
-
-.filter-btn {
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  color: var(--color-text-muted);
-  padding: 0.55rem 1.35rem;
-  border-radius: 50px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #FFFFFF;
-}
-
-.filter-btn.active {
-  background: var(--color-primary);
-  color: #FFFFFF;
-  border-color: var(--color-primary);
-  box-shadow: 0 2px 8px rgba(46, 125, 50, 0.3);
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-
-.gallery-item {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  position: relative;
-  background-color: #000;
-  height: 270px;
-  border: 1px solid var(--color-border);
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease, opacity 0.3s ease;
-}
-
-.gallery-item:hover img,
-.gallery-item:focus-within img {
-  transform: scale(1.06);
-  opacity: 0.85;
-}
-
-.gallery-item:focus-within {
-  outline: 3px solid var(--color-accent);
-  outline-offset: 2px;
-}
-
-.gallery-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1.25rem 1rem 0.75rem 1rem;
-  background: linear-gradient(to top, rgba(33, 33, 33, 0.95), rgba(33, 33, 33, 0.6), transparent);
-  color: #FFFFFF;
-  font-size: 0.92rem;
-  font-weight: 600;
-  line-height: 1.35;
-  transform: translateY(0);
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover .gallery-caption,
-.gallery-item:focus-within .gallery-caption {
-  transform: translateY(-4px);
-}
-
-.gallery-tag {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: var(--color-accent);
-  color: #FFFFFF;
-  padding: 0.15rem 0.5rem;
-  border-radius: 3px;
-  margin-bottom: 0.35rem;
-}
-
-/* --------------------------------------------------------------------------
-   FORMULAIRE DE DEVIS - STYLE DIFFUS (SIMPLE & ENGAGEANT)
-   -------------------------------------------------------------------------- */
+     FORMULAIRE DE DEVIS - STYLE DIFFUS (SIMPLE & ENGAGEANT)
+     -------------------------------------------------------------------------- */
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
