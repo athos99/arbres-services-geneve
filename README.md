@@ -87,48 +87,29 @@ Si vous ne voulez pas remplacer une photo mais en **ajouter une nouvelle**, voir
 
 ---
 
-## 📸 Ajouter une photo dans la galerie
+## 📸 Ajouter une photo
 
-La galerie se trouve sur la page **Réalisations** (`realisations.html`, `en/portfolio.html`, `de/portfolio.html`).
+Le site n'a pas (encore) de page galerie séparée. Les photos sont intégrées directement dans les pages HTML (accueil, services, équipe).
 
 ### Étapes
 
 1. **Déposez la photo** dans le dossier `images/` (ex: `mon-nouveau-chantier.jpeg`).
-2. **Ouvrez `realisations.html`** dans un éditeur de texte.
-3. **Trouvez un bloc de photo existant** dans la galerie, par exemple :
+2. **Ouvrez un des fichiers `.html`** concernés (ex: `index.html`, `services.html`, `equipe.html`).
+3. **Trouvez un bloc `<img>` existant** et copiez-le, par exemple :
    ```html
-   <!-- Item 1 : Élagage sur corde -->
-   <div class="gallery-item" data-category="elagage">
-     <img src="images/grimpeurs.jpeg" alt="Deux arboristes-grimpeurs procédant à l'allègement du houppier" loading="lazy">
-     <div class="gallery-caption">
-       <span class="gallery-tag">Élagage Corde</span><br>
-       Taille raisonnée dans la cime d'un grand arbre
-     </div>
-   </div>
+   <img src="images/grimpeurs.jpeg" alt="Deux arboristes-grimpeurs procédant à l'allègement du houppier" loading="lazy">
    ```
-4. **Copiez ce bloc entier** et collez-le à la fin, juste avant `</div>` de la grille (ligne `</div>` précédée de `<!-- Grille des photos -->`).
-5. **Modifiez les 3 éléments** dans le bloc copié :
+4. **Collez le bloc** à un endroit pertinent de la page.
+5. **Modifiez les 2 éléments** :
    - `src="images/grimpeurs.jpeg"` → `src="images/mon-nouveau-chantier.jpeg"`
    - `alt="..."` → décrivez la photo en 1 phrase (ex: `alt="Abattage délicat d'un chêne près d'une maison"`)
-   - Le texte de la légende (tag + description)
-6. **Choisissez la bonne catégorie** dans `data-category` :
-   - `elagage` : élagage, grimpe, taille
-   - `nacelle` : nacelle élévatrice
-   - `paysagisme` : aménagement, terrasses, fruitiers
-   - `transport` : évacuation, broyage, transport
-   - `equipe` : équipe en action, sécurité
 
-### Catégories disponibles
+### Règles pour les images
+- **Pages FR** : `src="images/mon-image.jpeg"`
+- **Pages EN** : `src="../images/mon-image.jpeg"`
+- **Pages DE** : `src="../images/mon-image.jpeg"`
 
-| Catégorie | Filtre affiché | Exemples de photos |
-|---|---|---|
-| `elagage` | Élagage & Grimpe | Grimpeurs en hauteur, taille raisonnée |
-| `nacelle` | Nacelle Élévatrice | Démontage avec nacelle, accès en hauteur |
-| `paysagisme` | Paysagisme & Fruitiers | Terrasses, plantations, taille fruitière |
-| `transport` | Transport & Évacuation | Camion, broyage, évacuation de bois |
-| `equipe` | Équipe en Action | Équipe au travail, EPI, coordination |
-
-> **Important :** Pour que la photo apparaisse aussi sur les versions anglaise et allemande du site, ajoutez le même bloc dans `en/portfolio.html` et `de/portfolio.html` en changeant les textes (légende, `alt`) dans ces langues.
+> **Important :** Pour que la photo apparaisse aussi sur les versions anglaise et allemande du site, ajoutez le même bloc dans les fichiers `en/` et `de/` en changeant les chemins (`../images/...`) et les textes (`alt`) dans ces langues.
 
 ---
 

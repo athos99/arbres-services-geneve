@@ -42,6 +42,8 @@
 
   --color-forest-dark: #112d1a;
   /* Fond sombre pour cartes texte clair - contraste WCAG AA+ */
+  --color-forest-tint: #0f2416;
+  /* Teinte foncée pour sections d'appel à l'action sur fond clair */
 
   --color-border: #E0E0E0;
   /* Bordures claires */
@@ -735,8 +737,13 @@ textarea:focus-visible,
 }
 
 .bg-forest-dark .service-card {
-  border-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-forest-dark);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.bg-forest-dark .service-card .service-card-desc {
+  color: var(--color-text-inverse);
 }
 
 .service-card:hover {
@@ -1127,6 +1134,11 @@ textarea:focus-visible,
 
 .site-footer .text-muted {
   color: #BDBDBD;
+}
+
+.site-footer .text-white,
+.site-footer .text-white a {
+  color: #FFFFFF;
 }
 
 .footer-links {
