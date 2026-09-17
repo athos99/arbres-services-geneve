@@ -261,6 +261,8 @@ textarea:focus-visible,
   gap: 0.5rem;
   font-weight: 700;
   color: #FAFAF9;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .swiss-flag {
@@ -293,11 +295,15 @@ textarea:focus-visible,
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  justify-content: flex-end;
 }
 
 .topbar-contact {
+  display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1rem;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .topbar-link {
@@ -307,6 +313,8 @@ textarea:focus-visible,
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 .topbar-link:hover,
@@ -322,6 +330,7 @@ textarea:focus-visible,
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.12);
+  margin-left: auto;
 }
 
 .lang-switch a {
@@ -1246,11 +1255,35 @@ textarea:focus-visible,
   .topbar-wrapper {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.5rem;
   }
 
-  .topbar-right {
+  .topbar {
+    overflow-x: hidden;
+  }
+
+  .swiss-badge {
+    font-size: 0.9rem;
+  }
+
+  .lang-switch a {
+    font-size: 0.78rem;
+    padding: 0.15rem 0.4rem;
+  }
+
+  .topbar {
+    font-size: 0.85rem;
+  }
+
+  .topbar-contact {
     width: 100%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .topbar-link span:not([aria-hidden]) {
+    display: none;
   }
 
   .mobile-menu-toggle {
