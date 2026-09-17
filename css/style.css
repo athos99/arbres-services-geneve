@@ -390,7 +390,6 @@ textarea:focus-visible,
 .logo-icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
