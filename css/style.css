@@ -1347,7 +1347,6 @@ textarea:focus-visible,
 .text-muted { color: var(--color-text-muted); }
 .text-dark { color: var(--color-text-main); }
 .text-forest { color: var(--color-primary-dark); }
-.text-inverse { color: var(--color-text-inverse); }
 
 /* ==========================================================================
    CLASSES BACKGROUND & BORDURES UTILITAIRES
