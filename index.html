@@ -45,23 +45,36 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "name": "ASG Arbres Services Genève",
-    "image": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
-    "telephone": "+41799217723",
-    "email": "bendik.hauserman@bluewin.ch",
-    "url": "https://arbres-services-geneve.ch",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Vernier",
-      "addressRegion": "GE",
-      "postalCode": "1214",
-      "addressCountry": "CH"
+    "@type": "TreeService",
+  "name": "ASG Arbres Services Genève",
+  "alternateName": "Arbres Services Genève",
+  "url": "https://arbres-services-geneve.ch/",
+  "logo": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
+  "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
+  "description": "Entreprise spécialisée dans l'élagage technique sur corde et nacelle, l'abattage délicat, la taille fruitière et les soins aux arbres dans les cantons de Genève et Vaud.",
+  "telephone": "+41799217723",
+  "email": "bendik.hauserman@bluewin.ch",
+  "founder": {
+    "@type": "Person",
+    "name": "Bendik Häusermann",
+    "jobTitle": "Arboriste & Fondateur",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "École de Lullier"
     },
-    "geo": {
+    "knowsLanguage": ["fr", "en", "de"]
+  },
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Route de Peney 147",
+    "postalCode": "1214",
+    "addressLocality": "Vernier",
+    "addressRegion": "Genève",
+    "addressCountry": "CH"
+  },    "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 46.2167,
-      "longitude": 6.0833
+      "latitude": 46.207571,
+      "longitude": 6.069073
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -69,16 +82,80 @@
       "opens": "07:00",
       "closes": "19:00"
     },
-    "areaServed": [
-      {"@type": "AdministrativeArea", "name": "Genève"},
-      {"@type": "AdministrativeArea", "name": "Vernier"},
-      {"@type": "AdministrativeArea", "name": "Vaud"}
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Bendik Häuserman"
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Canton de Genève"
     },
-    "priceRange": "$$",
+    {
+      "@type": "AdministrativeArea",
+      "name": "Canton de Vaud"
+    },
+    {
+      "@type": "City",
+      "name": "Vernier"
+    },
+    {
+      "@type": "City",
+      "name": "Genève"
+    },
+    {
+      "@type": "City",
+      "name": "Nyon"
+    }
+    {
+      "@type": "AdministrativeArea",
+      "name": "GE"
+    },
+  ],
+    "knowsLanguage": ["fr", "en", "de"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Prestations de soins aux arbres et paysagisme",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Élagage technique & entretien des arbres",
+          "description": "Taille douce, taille raisonnée, éclaircie du houppier, suppression du bois mort et allègement des charpentières sur corde ou nacelle."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Abattage délicat & dessouchage",
+          "description": "Démontage minutieux par rétention sur corde pour espaces restreints et rabotage mécanique de souches."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Taille fruitière & arbustes",
+          "description": "Taille de fructification adaptée, rajeunissement d'arbres anciens et taille de haies vives."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Paysagisme & aménagements naturels",
+          "description": "Plantations d'arbres indigènes, création de haies champêtres et aménagements extérieurs en bois."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Urgence intempéries & déneigement",
+          "description": "Interventions d'urgence en cas de tempête, sécurisation d'arbres dangereux, évacuation/transport jusqu'à 4 tonnes et service hivernal."
+        }
+      }
+    ]
+  },
+
     "currenciesAccepted": "CHF"
   }
   </script>
