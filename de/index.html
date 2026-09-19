@@ -41,27 +41,41 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../css/style.css">
 
-  <!-- Strukturierte Daten Schema.org LocalBusiness -->
+  <!-- Strukturierte Daten Schema.org TreeService -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
+    "@type": "TreeService",
     "name": "ASG Arbres Services Genève",
-    "image": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
+    "alternateName": "Arbres Services Genève",
+    "url": "https://arbres-services-geneve.ch/de/",
+    "logo": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
+    "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
+    "description": "Spezialisiertes Unternehmen für fachgerechten Baumschnitt in Seiltechnik und mit Hubplattform, schonende Fällung, Obstbaumschnitt und Baumpflege in den Kantonen Genf und Waadt.",
     "telephone": "+41799217723",
     "email": "bendik.hauserman@bluewin.ch",
-    "url": "https://arbres-services-geneve.ch",
+    "founder": {
+      "@type": "Person",
+      "name": "Bendik Häuserman",
+      "jobTitle": "Arborist & Gründer",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "École de Lullier"
+      },
+      "knowsLanguage": ["fr", "en", "de"]
+    },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Vernier",
-      "addressRegion": "GE",
+      "streetAddress": "Route de Peney 147",
       "postalCode": "1214",
+      "addressLocality": "Vernier",
+      "addressRegion": "Genf",
       "addressCountry": "CH"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 46.2167,
-      "longitude": 6.0833
+      "latitude": 46.207571,
+      "longitude": 6.069073
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -70,15 +84,78 @@
       "closes": "19:00"
     },
     "areaServed": [
-      {"@type": "AdministrativeArea", "name": "Genève"},
-      {"@type": "AdministrativeArea", "name": "Vernier"},
-      {"@type": "AdministrativeArea", "name": "Waadt"}
+      {
+        "@type": "AdministrativeArea",
+        "name": "Kanton Genf"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Kanton Waadt"
+      },
+      {
+        "@type": "City",
+        "name": "Vernier"
+      },
+      {
+        "@type": "City",
+        "name": "Genf"
+      },
+      {
+        "@type": "City",
+        "name": "Nyon"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "GE"
+      }
     ],
-    "founder": {
-      "@type": "Person",
-      "name": "Bendik Häuserman"
+    "knowsLanguage": ["fr", "en", "de"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Baumpflege- und Landschaftsbau-Dienstleistungen",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fachgerechter Baumschnitt & Baumpflege",
+            "description": "Sanftschnitt, begründeter Rückschnitt, Kronenlichtung, Entfernung von Totholz und Entlastung der Hauptäste auf Seil oder mit Hubplattform."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Schonende Fällung & Stumpffräsen",
+            "description": "Sorgfältiger Abbau über Seilrückhalt für eng begrenzte Räume und mechanisches Stumpffräsen."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Obstbaumschnitt & Sträucher",
+            "description": "Angepasster Fruchtschnitt, Verjüngung alter Bäume und Schnitt von lebenden Hecken."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Landschaftsbau & natürliche Anlagen",
+            "description": "Pflanzung einheimischer Bäume, Anlage von Feldhecken und Aussenanlagen aus Holz."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Sturmnotfall & Schneeräumung",
+            "description": "Notfalleinsätze bei Sturm, Sicherung gefährlicher Bäume, Abtransport/Transport bis 4 Tonnen und Winterdienst."
+          }
+        }
+      ]
     },
-    "priceRange": "$$",
     "currenciesAccepted": "CHF"
   }
   </script>

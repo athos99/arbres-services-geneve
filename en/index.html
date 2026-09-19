@@ -41,27 +41,41 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../css/style.css">
 
-  <!-- Schema.org Structured Data LocalBusiness -->
+  <!-- Schema.org Structured Data TreeService -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
+    "@type": "TreeService",
     "name": "ASG Arbres Services Genève",
-    "image": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
+    "alternateName": "Arbres Services Genève",
+    "url": "https://arbres-services-geneve.ch/en/",
+    "logo": "https://arbres-services-geneve.ch/images/realisation1.jpeg",
+    "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
+    "description": "Specialist company in technical rope and crane pruning, delicate felling, fruit tree pruning and tree care in the cantons of Geneva and Vaud.",
     "telephone": "+41799217723",
     "email": "bendik.hauserman@bluewin.ch",
-    "url": "https://arbres-services-geneve.ch",
+    "founder": {
+      "@type": "Person",
+      "name": "Bendik Häuserman",
+      "jobTitle": "Arborist & Founder",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Lullier School"
+      },
+      "knowsLanguage": ["fr", "en", "de"]
+    },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Vernier",
-      "addressRegion": "GE",
+      "streetAddress": "Route de Peney 147",
       "postalCode": "1214",
+      "addressLocality": "Vernier",
+      "addressRegion": "Geneva",
       "addressCountry": "CH"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 46.2167,
-      "longitude": 6.0833
+      "latitude": 46.207571,
+      "longitude": 6.069073
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -70,15 +84,78 @@
       "closes": "19:00"
     },
     "areaServed": [
-      {"@type": "AdministrativeArea", "name": "Geneva"},
-      {"@type": "AdministrativeArea", "name": "Vernier"},
-      {"@type": "AdministrativeArea", "name": "Vaud"}
+      {
+        "@type": "AdministrativeArea",
+        "name": "Canton of Geneva"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Canton of Vaud"
+      },
+      {
+        "@type": "City",
+        "name": "Vernier"
+      },
+      {
+        "@type": "City",
+        "name": "Geneva"
+      },
+      {
+        "@type": "City",
+        "name": "Nyon"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "GE"
+      }
     ],
-    "founder": {
-      "@type": "Person",
-      "name": "Bendik Häuserman"
+    "knowsLanguage": ["fr", "en", "de"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Tree care and landscaping services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Technical pruning & tree maintenance",
+            "description": "Gentle pruning, reasoned pruning, crown thinning, dead wood removal and branch lightening on rope or crane."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Delicate felling & stump grinding",
+            "description": "Meticulous dismantling by rope retention for confined spaces and mechanical stump grinding."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fruit tree & shrub pruning",
+            "description": "Adapted fruiting pruning, rejuvenation of ancient trees and living hedge pruning."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Landscaping & natural installations",
+            "description": "Planting of indigenous trees, creation of meadow hedges and exterior wooden installations."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Weather emergency & snow removal",
+            "description": "Emergency interventions in case of storm, securing of dangerous trees, evacuation/transport up to 4 tonnes and winter service."
+          }
+        }
+      ]
     },
-    "priceRange": "$$",
     "currenciesAccepted": "CHF"
   }
   </script>
