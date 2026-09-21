@@ -1,4 +1,4 @@
-# ASG Arbres Services Genève - Guide du site
+# Arbres Services Genève - Guide du site
 
 Le site est pré-visuable : <a href="https://athos99.github.io/arbres-services-geneve/" target="_blank" rel="noopener noreferrer">https://athos99.github.io/arbres-services-geneve/</a>
 
@@ -6,7 +6,7 @@ Pour avoir le contenu du site sous format zip: https://github.com/athos99/arbres
 
 
 
-Site web vitrine de l'entreprise **ASG Arbres Services Genève**, fondée par **Bendik Häuserman** et basée à **Vernier (GE)**.
+Site web vitrine de l'entreprise **Arbres Services Genève**, fondée par **Bendik Häuserman** et basée à **Vernier (GE)**.
 
 - **URL :** `https://arbres-services-geneve.ch`
 - **Langues :** Français, Anglais, Allemand
@@ -31,7 +31,6 @@ arbres-services-geneve/
 ├── images/                 # Toutes les photos du site
 ├── sitemap.xml             # Plan du site (SEO)
 ├── robots.txt              # Règles pour les moteurs de recherche
-└── asg-arbres-services-geneve.zip # Archive prête à déployer
 ```
 
 ---
@@ -146,6 +145,3 @@ Une fois vos modifications terminées :
 1. **Testez localement** : double-cliquez sur `index.html` pour ouvrir le site dans votre navigateur et vérifiez que tout est correct.
 2. **Envoyez les fichiers modifiés** sur votre hébergement web (FTP, SFTP, ou gestionnaire de fichiers de votre hébergeur).
 3. **Déployez l'ensemble** du dossier `arbres-services-geneve/` à la racine de votre site (généralement le dossier `www` ou `public_html`).
-
-Si vous avez téléchargé l'archive `asg-arbres-services-geneve.zip`, décompressez-la et envoyez tous les fichiers et dossiers qu'elle contient.
-

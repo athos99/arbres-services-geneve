@@ -1,5 +1,5 @@
 /**
- * ASG Arbres Services Genève - Script Principal Multilingue (FR / EN / DE)
+ * Arbres Services Genève - Script Principal Multilingue (FR / EN / DE)
  * Interactivité légère : Menu mobile accessible, Filtres de galerie
  */
 
