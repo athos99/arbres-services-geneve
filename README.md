@@ -6,7 +6,7 @@ Pour avoir le contenu du site sous format zip: https://github.com/athos99/arbres
 
 
 
-Site web vitrine de l'entreprise **Arbres Services Genève**, fondée par **Bendik Häuserman** et basée à **Vernier (GE)**.
+Site web vitrine de l'entreprise **Arbres Services Genève**, fondée par **Bendik Häusermann** et basée à **Vernier (GE)**.
 
 - **URL :** `https://arbres-services-geneve.ch`
 - **Langues :** Français, Anglais, Allemand
