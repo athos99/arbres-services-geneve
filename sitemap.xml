@@ -118,4 +118,33 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- ==================== URGENCE INTEMPÉRIES / EMERGENCY / NOTFALL ==================== -->
+  <url>
+    <loc>https://arbres-services-geneve.ch/urgence.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/urgence.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://arbres-services-geneve.ch/en/emergency.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://arbres-services-geneve.ch/de/notfall.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://arbres-services-geneve.ch/urgence.html"/>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arbres-services-geneve.ch/en/emergency.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/urgence.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://arbres-services-geneve.ch/en/emergency.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://arbres-services-geneve.ch/de/notfall.html"/>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://arbres-services-geneve.ch/de/notfall.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://arbres-services-geneve.ch/urgence.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CH" href="https://arbres-services-geneve.ch/en/emergency.html"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://arbres-services-geneve.ch/de/notfall.html"/>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
