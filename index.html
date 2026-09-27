@@ -43,128 +43,171 @@
 
   <!-- Feuilles de style -->
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Données structurées Schema.org LocalBusiness -->
+  <!-- Données structurées Schema.org : site, page d'accueil et organisation -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "@id": "https://arbres-services-geneve.ch/#organization",
-    "name": "Arbres Services Genève",
-  "alternateName": "ASG Arbres Services Genève",
-  "url": "https://arbres-services-geneve.ch/",
-  "logo": "https://arbres-services-geneve.ch/favicon.svg",
-  "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
-  "description": "Entreprise spécialisée dans l'élagage technique sur corde et nacelle, l'abattage délicat, la taille fruitière et les soins aux arbres dans les cantons de Genève et Vaud.",
-  "telephone": "+41799217723",
-  "email": "bendik.hausermann@bluewin.ch",
-  "founder": {
-    "@type": "Person",
-    "name": "Bendik Häusermann",
-    "jobTitle": "Arboriste & Fondateur",
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "École de Lullier"
-    },
-    "knowsLanguage": ["fr", "en", "de"]
-  },
-    "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Route de Peney 147",
-    "postalCode": "1214",
-    "addressLocality": "Vernier",
-    "addressRegion": "GE",
-    "addressCountry": "CH"
-  },    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 46.207571,
-      "longitude": 6.069073
-    },
-  "areaServed": [
-    {
-      "@type": "AdministrativeArea",
-      "name": "Canton de Genève"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Canton de Vaud"
-    },
-    {
-      "@type": "City",
-      "name": "Vernier"
-    },
-    {
-      "@type": "City",
-      "name": "Genève"
-    },
-    {
-        "@type": "City",
-        "name": "Nyon"
-      },
+    "@graph": [
       {
-        "@type": "AdministrativeArea",
-        "name": "GE"
-      }
-    ],
-    "knowsLanguage": ["fr", "en", "de"],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Prestations de soins aux arbres et paysagisme",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Élagage technique & entretien des arbres",
-          "description": "Taille douce, taille raisonnée, éclaircie du houppier, suppression du bois mort et allègement des charpentières sur corde ou nacelle."
+        "@type": "WebSite",
+        "@id": "https://arbres-services-geneve.ch/#website",
+        "url": "https://arbres-services-geneve.ch/",
+        "name": "Arbres Services Genève",
+        "inLanguage": [
+          "fr-CH",
+          "en-CH",
+          "de-CH"
+        ],
+        "publisher": {
+          "@id": "https://arbres-services-geneve.ch/#organization"
         }
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Abattage délicat & dessouchage",
-          "description": "Démontage minutieux par rétention sur corde pour espaces restreints et rabotage mécanique de souches."
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/#webpage",
+        "url": "https://arbres-services-geneve.ch/",
+        "name": "Élagage technique, abattage délicat & soins aux arbres à Genève",
+        "description": "Spécialiste de l'élagage sur corde et nacelle, abattage délicat, taille fruitière et entretien des arbres à Genève et dans le canton de Vaud. Entreprise suisse basée à Vernier.",
+        "inLanguage": "fr-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "about": {
+          "@id": "https://arbres-services-geneve.ch/#organization"
         }
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Taille fruitière & arbustes",
-          "description": "Taille de fructification adaptée, rajeunissement d'arbres anciens et taille de haies vives."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Paysagisme & aménagements naturels",
-          "description": "Plantations d'arbres indigènes, création de haies champêtres et aménagements extérieurs en bois."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Urgence intempéries & déneigement",
-          "description": "Interventions d'urgence en cas de tempête, sécurisation d'arbres dangereux, évacuation/transport jusqu'à 4 tonnes et service hivernal."
-        }
-      }
-    ]
-  },
-
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
+        "@type": "HomeAndConstructionBusiness",
+        "@id": "https://arbres-services-geneve.ch/#organization",
+        "name": "Arbres Services Genève",
+        "alternateName": "ASG Arbres Services Genève",
+        "url": "https://arbres-services-geneve.ch/",
+        "logo": "https://arbres-services-geneve.ch/favicon.svg",
+        "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
+        "description": "Entreprise spécialisée dans l'élagage technique sur corde et nacelle, l'abattage délicat, la taille fruitière et les soins aux arbres dans les cantons de Genève et Vaud.",
         "telephone": "+41799217723",
         "email": "bendik.hausermann@bluewin.ch",
-        "availableLanguage": ["French", "English", "German"]
+        "founder": {
+          "@type": "Person",
+          "name": "Bendik Häusermann",
+          "jobTitle": "Arboriste & Fondateur",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "École de Lullier"
+          },
+          "knowsLanguage": [
+            "fr",
+            "en",
+            "de"
+          ]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Route de Peney 147",
+          "postalCode": "1214",
+          "addressLocality": "Vernier",
+          "addressRegion": "GE",
+          "addressCountry": "CH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.207571,
+          "longitude": 6.069073
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Canton de Genève"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Canton de Vaud"
+          },
+          {
+            "@type": "City",
+            "name": "Vernier"
+          },
+          {
+            "@type": "City",
+            "name": "Genève"
+          },
+          {
+            "@type": "City",
+            "name": "Nyon"
+          }
+        ],
+        "knowsLanguage": [
+          "fr",
+          "en",
+          "de"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Prestations de soins aux arbres et paysagisme",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Élagage technique & entretien des arbres",
+                "description": "Taille douce, taille raisonnée, éclaircie du houppier, suppression du bois mort et allègement des charpentières sur corde ou nacelle."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Abattage délicat & dessouchage",
+                "description": "Démontage minutieux par rétention sur corde pour espaces restreints et rabotage mécanique de souches."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Taille fruitière & arbustes",
+                "description": "Taille de fructification adaptée, rajeunissement d'arbres anciens et taille de haies vives."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Paysagisme & aménagements naturels",
+                "description": "Plantations d'arbres indigènes, création de haies champêtres et aménagements extérieurs en bois."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Urgence intempéries & déneigement",
+                "description": "Interventions d'urgence en cas de tempête, sécurisation d'arbres dangereux, évacuation/transport jusqu'à 4 tonnes et service hivernal."
+              },
+              "url": "https://arbres-services-geneve.ch/urgence.html"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "telephone": "+41799217723",
+            "email": "bendik.hausermann@bluewin.ch",
+            "availableLanguage": [
+              "French",
+              "English",
+              "German"
+            ]
+          }
+        ],
+        "priceRange": "$$",
+        "currenciesAccepted": [
+          "CHF"
+        ],
+        "inLanguage": "fr-CH"
       }
-    ],
-    "priceRange": "$$",
-    "currenciesAccepted": ["CHF"]
+    ]
   }
   </script>
 </head>

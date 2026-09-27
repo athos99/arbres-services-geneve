@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Structured data Schema.org BreadcrumbList -->
+  <!-- Structured data Schema.org: breadcrumbs and page -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://arbres-services-geneve.ch/en/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://arbres-services-geneve.ch/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Approach & Values",
+            "item": "https://arbres-services-geneve.ch/en/values.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/en/values.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Approach & Values",
-        "item": "https://arbres-services-geneve.ch/en/values.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/en/values.html#webpage",
+        "url": "https://arbres-services-geneve.ch/en/values.html",
+        "name": "Our Approach & Human Values",
+        "description": "Discover the sincere values of Tree Services Geneva: respect for trees, absolute safety, ecological wood utilization and trusted human relationships.",
+        "inLanguage": "en-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/en/values.html#breadcrumb"
+        }
       }
     ]
   }

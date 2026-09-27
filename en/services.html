@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Structured data Schema.org BreadcrumbList -->
+  <!-- Structured data Schema.org: breadcrumbs and page -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://arbres-services-geneve.ch/en/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://arbres-services-geneve.ch/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://arbres-services-geneve.ch/en/services.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/en/services.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://arbres-services-geneve.ch/en/services.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/en/services.html#webpage",
+        "url": "https://arbres-services-geneve.ch/en/services.html",
+        "name": "Our Specialized Services",
+        "description": "Discover our specialized services: rope and crane pruning, delicate felling, fruit tree pruning, stump grinding, landscaping and snow removal in Geneva and Vaud.",
+        "inLanguage": "en-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/en/services.html#breadcrumb"
+        }
       }
     ]
   }

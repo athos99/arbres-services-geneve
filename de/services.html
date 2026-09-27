@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Strukturierte Daten Schema.org BreadcrumbList -->
+  <!-- Strukturierte Daten Schema.org: Brotkrumen und Seite -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Startseite",
-        "item": "https://arbres-services-geneve.ch/de/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "https://arbres-services-geneve.ch/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Leistungen",
+            "item": "https://arbres-services-geneve.ch/de/services.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/de/services.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Leistungen",
-        "item": "https://arbres-services-geneve.ch/de/services.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/de/services.html#webpage",
+        "url": "https://arbres-services-geneve.ch/de/services.html",
+        "name": "Unsere Fachleistungen",
+        "description": "Entdecken Sie unsere Fachdienste: Baumschnitt auf Seil und Bühne, schonende Fällung, Obstbaumschnitt, Stumpffräsen, Landschaftsbau und Schneeräumung in Genf und Waadt.",
+        "inLanguage": "de-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/de/services.html#breadcrumb"
+        }
       }
     ]
   }

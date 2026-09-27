@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Structured data Schema.org BreadcrumbList -->
+  <!-- Structured data Schema.org: breadcrumbs and page -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://arbres-services-geneve.ch/en/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://arbres-services-geneve.ch/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Our Team",
+            "item": "https://arbres-services-geneve.ch/en/team.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/en/team.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Our Team",
-        "item": "https://arbres-services-geneve.ch/en/team.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/en/team.html#webpage",
+        "url": "https://arbres-services-geneve.ch/en/team.html",
+        "name": "The Founder & Team",
+        "description": "Discover Bendik Häusermann, passionate founder of Arbres Services Genève, and his team of certified arborist climbers in Vernier, Geneva and Vaud.",
+        "inLanguage": "en-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/en/team.html#breadcrumb"
+        }
       }
     ]
   }

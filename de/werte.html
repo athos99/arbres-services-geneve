@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Strukturierte Daten Schema.org BreadcrumbList -->
+  <!-- Strukturierte Daten Schema.org: Brotkrumen und Seite -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Startseite",
-        "item": "https://arbres-services-geneve.ch/de/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "https://arbres-services-geneve.ch/de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ansatz & Werte",
+            "item": "https://arbres-services-geneve.ch/de/werte.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/de/werte.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Ansatz & Werte",
-        "item": "https://arbres-services-geneve.ch/de/werte.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/de/werte.html#webpage",
+        "url": "https://arbres-services-geneve.ch/de/werte.html",
+        "name": "Unser Ansatz & Menschliche Werte",
+        "description": "Entdecken Sie die aufrichtigen Werte der Arbres Services Genève: Respekt vor Bäumen, absolute Sicherheit, ökologische Holznutzung und vertrauensvolle Beziehungen zu Menschen.",
+        "inLanguage": "de-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/de/werte.html#breadcrumb"
+        }
       }
     ]
   }

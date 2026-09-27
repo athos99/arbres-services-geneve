@@ -43,128 +43,171 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../css/style.css">
-
-  <!-- Schema.org Structured Data HomeAndConstructionBusiness -->
+  <!-- Structured data Schema.org: website, home page and organisation -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "@id": "https://arbres-services-geneve.ch/en/#organization",
-    "name": "Arbres Services Genève",
-    "alternateName": "ASG Arbres Services Genève",
-    "url": "https://arbres-services-geneve.ch/en/",
-    "logo": "https://arbres-services-geneve.ch/favicon.svg",
-    "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
-    "description": "Specialist company in technical rope and crane pruning, delicate felling, fruit tree pruning and tree care in the cantons of Geneva and Vaud.",
-    "telephone": "+41799217723",
-    "email": "bendik.hausermann@bluewin.ch",
-    "founder": {
-      "@type": "Person",
-      "name": "Bendik Häusermann",
-      "jobTitle": "Arborist & Founder",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Lullier School"
-      },
-      "knowsLanguage": ["fr", "en", "de"]
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Route de Peney 147",
-      "postalCode": "1214",
-      "addressLocality": "Vernier",
-      "addressRegion": "GE",
-      "addressCountry": "CH"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 46.207571,
-      "longitude": 6.069073
-    },
-    "areaServed": [
+    "@graph": [
       {
-        "@type": "AdministrativeArea",
-        "name": "Canton of Geneva"
-      },
-      {
-        "@type": "AdministrativeArea",
-        "name": "Canton of Vaud"
-      },
-      {
-        "@type": "City",
-        "name": "Vernier"
-      },
-      {
-        "@type": "City",
-        "name": "Geneva"
-      },
-      {
-        "@type": "City",
-        "name": "Nyon"
-      },
-      {
-        "@type": "AdministrativeArea",
-        "name": "GE"
-      }
-    ],
-    "knowsLanguage": ["fr", "en", "de"],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Tree care and landscaping services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Technical pruning & tree maintenance",
-            "description": "Gentle pruning, reasoned pruning, crown thinning, dead wood removal and branch lightening on rope or crane."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Delicate felling & stump grinding",
-            "description": "Meticulous dismantling by rope retention for confined spaces and mechanical stump grinding."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Fruit tree & shrub pruning",
-            "description": "Adapted fruiting pruning, rejuvenation of ancient trees and living hedge pruning."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Landscaping & natural installations",
-            "description": "Planting of indigenous trees, creation of meadow hedges and exterior wooden installations."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Weather emergency & snow removal",
-            "description": "Emergency interventions in case of storm, securing of dangerous trees, evacuation/transport up to 4 tonnes and winter service."
-          }
+        "@type": "WebSite",
+        "@id": "https://arbres-services-geneve.ch/#website",
+        "url": "https://arbres-services-geneve.ch/",
+        "name": "Arbres Services Genève",
+        "inLanguage": [
+          "fr-CH",
+          "en-CH",
+          "de-CH"
+        ],
+        "publisher": {
+          "@id": "https://arbres-services-geneve.ch/#organization"
         }
-      ]
-    },
-    "contactPoint": [
+      },
       {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/en/#webpage",
+        "url": "https://arbres-services-geneve.ch/en/",
+        "name": "Technical pruning, delicate felling & tree care in Geneva",
+        "description": "Specialists in rope and crane pruning, delicate felling, fruit tree pruning and tree maintenance in Geneva and the canton of Vaud. Swiss-based company in Vernier.",
+        "inLanguage": "en-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "about": {
+          "@id": "https://arbres-services-geneve.ch/#organization"
+        }
+      },
+      {
+        "@type": "HomeAndConstructionBusiness",
+        "@id": "https://arbres-services-geneve.ch/#organization",
+        "name": "Arbres Services Genève",
+        "alternateName": "ASG Arbres Services Genève",
+        "url": "https://arbres-services-geneve.ch/",
+        "logo": "https://arbres-services-geneve.ch/favicon.svg",
+        "image": "https://arbres-services-geneve.ch/images/grimpeurs.jpeg",
+        "description": "Specialist company in technical rope and crane pruning, delicate felling, fruit tree pruning and tree care in the cantons of Geneva and Vaud.",
         "telephone": "+41799217723",
         "email": "bendik.hausermann@bluewin.ch",
-        "availableLanguage": ["French", "English", "German"]
+        "founder": {
+          "@type": "Person",
+          "name": "Bendik Häusermann",
+          "jobTitle": "Arborist & Founder",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Lullier School"
+          },
+          "knowsLanguage": [
+            "fr",
+            "en",
+            "de"
+          ]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Route de Peney 147",
+          "postalCode": "1214",
+          "addressLocality": "Vernier",
+          "addressRegion": "GE",
+          "addressCountry": "CH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.207571,
+          "longitude": 6.069073
+        },
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Canton of Geneva"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Canton of Vaud"
+          },
+          {
+            "@type": "City",
+            "name": "Vernier"
+          },
+          {
+            "@type": "City",
+            "name": "Geneva"
+          },
+          {
+            "@type": "City",
+            "name": "Nyon"
+          }
+        ],
+        "knowsLanguage": [
+          "fr",
+          "en",
+          "de"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Tree care and landscaping services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Technical pruning & tree maintenance",
+                "description": "Gentle pruning, reasoned pruning, crown thinning, dead wood removal and branch lightening on rope or crane."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Delicate felling & stump grinding",
+                "description": "Meticulous dismantling by rope retention for confined spaces and mechanical stump grinding."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Fruit tree & shrub pruning",
+                "description": "Adapted fruiting pruning, rejuvenation of ancient trees and living hedge pruning."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Landscaping & natural installations",
+                "description": "Planting of indigenous trees, creation of meadow hedges and exterior wooden installations."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Weather emergency & snow removal",
+                "description": "Emergency interventions in case of storm, securing of dangerous trees, evacuation/transport up to 4 tonnes and winter service."
+              },
+              "url": "https://arbres-services-geneve.ch/en/emergency.html"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "telephone": "+41799217723",
+            "email": "bendik.hausermann@bluewin.ch",
+            "availableLanguage": [
+              "French",
+              "English",
+              "German"
+            ]
+          }
+        ],
+        "priceRange": "$$",
+        "currenciesAccepted": [
+          "CHF"
+        ],
+        "inLanguage": "en-CH"
       }
-    ],
-    "priceRange": "$$",
-    "currenciesAccepted": ["CHF"]
+    ]
   }
   </script>
 </head>

@@ -32,24 +32,42 @@
 <link rel="shortcut icon" href="favicon.ico">
 
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Données structurées Schema.org BreadcrumbList -->
+  <!-- Données structurées Schema.org : fil d'Ariane et page -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    "@graph": [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Accueil",
-        "item": "https://arbres-services-geneve.ch/"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://arbres-services-geneve.ch/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Notre Approche & Valeurs",
+            "item": "https://arbres-services-geneve.ch/valeurs.html"
+          }
+        ],
+        "@id": "https://arbres-services-geneve.ch/valeurs.html#breadcrumb"
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Notre Approche & Valeurs",
-        "item": "https://arbres-services-geneve.ch/valeurs.html"
+        "@type": "WebPage",
+        "@id": "https://arbres-services-geneve.ch/valeurs.html#webpage",
+        "url": "https://arbres-services-geneve.ch/valeurs.html",
+        "name": "Notre Approche & Nos Valeurs Humaines",
+        "description": "Découvrez les valeurs sincères d'Arbres Services Genève : respect du végétal, sécurité absolue, valorisation écologique du bois et relations humaines de confiance.",
+        "inLanguage": "fr-CH",
+        "isPartOf": {
+          "@id": "https://arbres-services-geneve.ch/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://arbres-services-geneve.ch/valeurs.html#breadcrumb"
+        }
       }
     ]
   }
