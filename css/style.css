@@ -1036,9 +1036,9 @@ textarea:focus-visible,
   line-height: 1.6;
 }
 
-/* --------------------------------------------------------------------------
-     FORMULAIRE DE DEVIS - STYLE DIFFUS (SIMPLE & ENGAGEANT)
-     -------------------------------------------------------------------------- */
+/* ==============================================================================
+   FORMULAIRE DE DEVIS - STYLE DIFFUS (SIMPLE & ENGAGEANT)
+   ============================================================================== */
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
