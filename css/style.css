@@ -559,7 +559,7 @@ textarea:focus-visible,
 }
 
 /* --------------------------------------------------------------------------
-    BANNIÈRE D'URGENCE INTEMPÉRIES
+   BANNIÈRE D'URGENCE INTEMPÉRIES
    -------------------------------------------------------------------------- */
 .emergency-banner {
   background: linear-gradient(135deg, #B71C1C, #8B0000);
